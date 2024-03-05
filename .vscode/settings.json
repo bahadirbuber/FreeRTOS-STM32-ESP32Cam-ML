@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "string.h": "c",
+        "main.h": "c",
+        "cmsis_os.h": "c",
+        "stm32h7xx_hal.h": "c",
+        "main_user.h": "c",
+        "freertos.h": "c"
+    },
+    "cmake.sourceDirectory": "C:/TouchGFXProjects/RTOS_ML_SPI/STM32CubeIDE/CM7"
+}

@@ -1,0 +1,4 @@
+C:/TouchGFXProjects/RTOS_ML_SPI/CM4/Core/Src/main.c:69:5:main	2
+C:/TouchGFXProjects/RTOS_ML_SPI/CM4/Core/Src/main.c:126:13:MX_DMA_Init	2
+C:/TouchGFXProjects/RTOS_ML_SPI/CM4/Core/Src/main.c:156:13:MX_MDMA_Init	1
+C:/TouchGFXProjects/RTOS_ML_SPI/CM4/Core/Src/main.c:173:6:Error_Handler	1

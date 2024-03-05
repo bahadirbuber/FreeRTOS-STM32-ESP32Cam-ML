@@ -1,0 +1,17 @@
+C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_qspi.c:97:9:BSP_QSPI_Init	12
+C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_qspi.c:182:9:BSP_QSPI_DeInit	6
+C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_qspi.c:231:26:MX_QSPI_Init	1
+C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_qspi.c:329:9:BSP_QSPI_Read	5
+C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_qspi.c:368:9:BSP_QSPI_Write	10
+C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_qspi.c:438:9:BSP_QSPI_EraseBlock	5
+C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_qspi.c:477:9:BSP_QSPI_EraseChip	5
+C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_qspi.c:517:9:BSP_QSPI_GetStatus	4
+C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_qspi.c:553:9:BSP_QSPI_GetInfo	2
+C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_qspi.c:577:9:BSP_QSPI_EnableMemoryMappedMode	5
+C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_qspi.c:622:9:BSP_QSPI_DisableMemoryMappedMode	6
+C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_qspi.c:673:9:BSP_QSPI_ReadID	3
+C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_qspi.c:703:9:BSP_QSPI_ConfigFlash	11
+C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_qspi.c:790:13:QSPI_MspInit	1
+C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_qspi.c:880:13:QSPI_MspDeInit	1
+C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_qspi.c:916:16:QSPI_ResetMemory	6
+C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_qspi.c:959:16:QSPI_DummyCyclesCfg	6
