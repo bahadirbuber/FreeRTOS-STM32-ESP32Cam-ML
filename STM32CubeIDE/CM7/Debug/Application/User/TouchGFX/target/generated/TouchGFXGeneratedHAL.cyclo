@@ -85,7 +85,7 @@
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/hal/VideoController.hpp:100:13:virtual touchgfx::VideoController::~VideoController()	1
 ../../../CM7/TouchGFX/target/generated/MJPEGDecoder.hpp:27:13:MJPEGDecoder::~MJPEGDecoder()	1
 ../../../CM7/TouchGFX/target/generated/MJPEGDecoder.hpp:27:13:virtual MJPEGDecoder::~MJPEGDecoder()	1
-../../../CM7/TouchGFX/target/generated/HardwareMJPEGDecoder.hpp:80:10:void HardwareMJPEGDecoder::addDMA(touchgfx::DMA_Interface&)	1
+../../../CM7/TouchGFX/target/generated/HardwareMJPEGDecoder.hpp:79:10:void HardwareMJPEGDecoder::addDMA(touchgfx::DMA_Interface&)	1
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/VideoWidget.hpp:159:10:void touchgfx::VideoWidget::setVideoBuffer(uint8_t*)	1
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/VideoWidget.hpp:172:10:void touchgfx::VideoWidget::setVideoBufferFormat(touchgfx::Bitmap::BitmapFormat, int16_t, int16_t)	1
 C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:38:18:static touchgfx::VideoController& touchgfx::VideoController::getInstance()	1

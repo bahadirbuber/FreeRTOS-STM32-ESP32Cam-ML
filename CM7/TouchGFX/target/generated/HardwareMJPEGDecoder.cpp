@@ -548,7 +548,7 @@ extern "C"
      * @param  DestAddress : ARGB8888 destination Frame Buffer Address.
      * @retval None
      */
-	__weak uint32_t JPEG_Decode_DMA(JPEG_HandleTypeDef* hjpeg, uint8_t* input, uint32_t chunkSizeIn /* length */, uint8_t* output)
+__weak uint32_t JPEG_Decode_DMA(JPEG_HandleTypeDef* hjpeg, uint8_t* input, uint32_t chunkSizeIn /* length */, uint8_t* output)
     {
         FrameBufferAddress = output;
         JPEG_output_is_paused = 0;
@@ -590,7 +590,7 @@ extern "C"
      * @param pInfo: JPEG Info Struct pointer
      * @retval None
      */
-    __weak void HAL_JPEG_InfoReadyCallback(JPEG_HandleTypeDef* hjpeg, JPEG_ConfTypeDef* pInfo)
+__weak void HAL_JPEG_InfoReadyCallback(JPEG_HandleTypeDef* hjpeg, JPEG_ConfTypeDef* pInfo)
     {
         uint32_t hMCU, vMCU;
 
@@ -646,7 +646,7 @@ extern "C"
      * @param NbDecodedData: Number of decoded (consummed) bytes from input buffer
      * @retval None
      */
-    __weak void HAL_JPEG_GetDataCallback(JPEG_HandleTypeDef* hjpeg, uint32_t NbDecodedData)
+__weak void HAL_JPEG_GetDataCallback(JPEG_HandleTypeDef* hjpeg, uint32_t NbDecodedData)
     {
         /* Input buffer has been consumed by the peripheral and to ask for a new data chunk if the operation (encoding/decoding) has not been complete yet. */
         JPEG_InputImageIndex += NbDecodedData;
@@ -665,7 +665,7 @@ extern "C"
      * @param OutDataLength: length of output buffer in bytes
      * @retval None
      */
-    __weak void HAL_JPEG_DataReadyCallback(JPEG_HandleTypeDef* hjpeg, uint8_t* pDataOut, uint32_t OutDataLength)
+__weak void HAL_JPEG_DataReadyCallback(JPEG_HandleTypeDef* hjpeg, uint8_t* pDataOut, uint32_t OutDataLength)
     {
         line_count += MCU_HEIGHT_PIXELS;
 
@@ -732,7 +732,7 @@ extern "C"
      * @param hjpeg: JPEG handle pointer
      * @retval None
      */
-    __weak void HAL_JPEG_ErrorCallback(JPEG_HandleTypeDef* hjpeg)
+__weak void HAL_JPEG_ErrorCallback(JPEG_HandleTypeDef* hjpeg)
     {
         __disable_irq();
         while (1)
@@ -745,7 +745,7 @@ extern "C"
      * @param hjpeg: JPEG handle pointer
      * @retval None
      */
-    __weak void HAL_JPEG_DecodeCpltCallback(JPEG_HandleTypeDef* hjpeg)
+__weak void HAL_JPEG_DecodeCpltCallback(JPEG_HandleTypeDef* hjpeg)
     {
         Jpeg_HWDecodingEnd = 1;
     }

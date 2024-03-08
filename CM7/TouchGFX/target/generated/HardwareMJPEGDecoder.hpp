@@ -59,7 +59,6 @@ public:
     virtual bool decodeFrame(const touchgfx::Rect& area, uint8_t* frameBuffer, uint32_t framebuffer_width);
     virtual bool decodeThumbnail(uint32_t frameno, uint8_t* buffer, uint16_t width, uint16_t height);
     virtual void gotoFrame(uint32_t frameno);
-    void decodeMJPEGFrame(const uint8_t* const mjpgdata, const uint32_t length, uint8_t* buffer, uint16_t width, uint16_t height, uint32_t stride);
     virtual uint32_t getCurrentFrameNumber() const
     {
         return frameNumber;
@@ -83,7 +82,7 @@ public:
     }
 private:
     void readVideoHeader();
-
+    void decodeMJPEGFrame(const uint8_t* const mjpgdata, const uint32_t length, uint8_t* buffer, uint16_t width, uint16_t height, uint32_t stride);
     int compare(const uint32_t offset, const char* str, uint32_t num);
     uint32_t getU32(const uint32_t offset);
     uint32_t getU16(const uint32_t offset);

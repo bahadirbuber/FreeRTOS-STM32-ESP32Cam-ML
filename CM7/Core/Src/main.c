@@ -51,9 +51,11 @@
 /* Private macro -------------------------------------------------------------*/
 /* USER CODE BEGIN PM */
 extern __IO uint32_t Jpeg_HWDecodingEnd;
-/* USER CODE END PM */
+
 static DMA2D_HandleTypeDef DMA2D_Handle;
 static JPEG_ConfTypeDef       JPEG_Info;
+/* USER CODE END PM */
+
 /* Private variables ---------------------------------------------------------*/
 
 CRC_HandleTypeDef hcrc;
@@ -233,6 +235,7 @@ void HAL_SPI_RxCpltCallback(SPI_HandleTypeDef * hspi)
 }
 
 /* USER CODE END 0 */
+
 /**
   * @brief  The application entry point.
   * @retval int
@@ -363,10 +366,10 @@ Error_Handler();
   /* add threads, ... */
   jpegDecodeTaskHandle = osThreadNew(StartJPEGDecodeTask, NULL, &jpegDecodeTask_attributes);
   /* USER CODE END RTOS_THREADS */
-  HAL_SPI_Receive_DMA(&hspi2,RX_Buffer,sizeof(RX_Buffer));
-  
+
   /* USER CODE BEGIN RTOS_EVENTS */
   /* add events, ... */
+  HAL_SPI_Receive_DMA(&hspi2,RX_Buffer,sizeof(RX_Buffer));
 
   __IO uint32_t *ptr=(__IO uint32_t*)(RAMbufferJPG);
   memset((uint32_t *)ptr,0xAA,RAMbufferJPGlen);
@@ -505,7 +508,7 @@ static void MX_DMA2D_Init(void)
   hdma2d.LayerCfg[1].InputAlpha = 0;
   hdma2d.LayerCfg[1].AlphaInverted = DMA2D_REGULAR_ALPHA;
   hdma2d.LayerCfg[1].RedBlueSwap = DMA2D_RB_REGULAR;
-  // hdma2d.LayerCfg[1].ChromaSubSampling = DMA2D_NO_CSS;
+  hdma2d.LayerCfg[1].ChromaSubSampling = DMA2D_NO_CSS;
   if (HAL_DMA2D_Init(&hdma2d) != HAL_OK)
   {
     Error_Handler();
