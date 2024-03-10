@@ -1,7 +1,7 @@
 Drivers/BSP/Components/mt25tl01g.o: \
- C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/Components/mt25tl01g/mt25tl01g.c \
- C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/Components/mt25tl01g/mt25tl01g.h \
- C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/Components/mt25tl01g/mt25tl01g_conf.h \
+ /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/BSP/Components/mt25tl01g/mt25tl01g.c \
+ /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/BSP/Components/mt25tl01g/mt25tl01g.h \
+ /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/BSP/Components/mt25tl01g/mt25tl01g_conf.h \
  ../../../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h \
  ../../../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h745xx.h \
  ../../../Drivers/CMSIS/Include/core_cm7.h \
@@ -45,8 +45,8 @@ Drivers/BSP/Components/mt25tl01g.o: \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h
-C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/Components/mt25tl01g/mt25tl01g.h:
-C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/Components/mt25tl01g/mt25tl01g_conf.h:
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/BSP/Components/mt25tl01g/mt25tl01g.h:
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/BSP/Components/mt25tl01g/mt25tl01g_conf.h:
 ../../../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h:
 ../../../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h745xx.h:
 ../../../Drivers/CMSIS/Include/core_cm7.h:

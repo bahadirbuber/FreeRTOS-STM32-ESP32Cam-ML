@@ -94,8 +94,8 @@ all: main-build
 main-build: RTOS_ML_SPI_CM7.elf secondary-outputs
 
 # Tool invocations
-RTOS_ML_SPI_CM7.elf RTOS_ML_SPI_CM7.map: $(OBJS) $(USER_OBJS) C:\TouchGFXProjects\RTOS_ML_SPI\STM32CubeIDE\CM7\STM32H745XIHX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-g++ -o "RTOS_ML_SPI_CM7.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"C:\TouchGFXProjects\RTOS_ML_SPI\STM32CubeIDE\CM7\STM32H745XIHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="RTOS_ML_SPI_CM7.map" -Wl,--gc-sections -static -L../../../CM7/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+RTOS_ML_SPI_CM7.elf RTOS_ML_SPI_CM7.map: $(OBJS) $(USER_OBJS) /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/STM32CubeIDE/CM7/STM32H745XIHX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-g++ -o "RTOS_ML_SPI_CM7.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/STM32CubeIDE/CM7/STM32H745XIHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="RTOS_ML_SPI_CM7.map" -Wl,--gc-sections -static -L../../../CM7/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

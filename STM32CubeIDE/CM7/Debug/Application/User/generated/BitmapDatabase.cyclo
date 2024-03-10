@@ -1,2 +1,2 @@
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/generated/images/src/BitmapDatabase.cpp:17:37:const touchgfx::Bitmap::BitmapData* BitmapDatabase::getInstance()	1
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/generated/images/src/BitmapDatabase.cpp:22:10:uint16_t BitmapDatabase::getInstanceSize()	1
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/generated/images/src/BitmapDatabase.cpp:17:37:const touchgfx::Bitmap::BitmapData* BitmapDatabase::getInstance()	1
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/generated/images/src/BitmapDatabase.cpp:22:10:uint16_t BitmapDatabase::getInstanceSize()	1

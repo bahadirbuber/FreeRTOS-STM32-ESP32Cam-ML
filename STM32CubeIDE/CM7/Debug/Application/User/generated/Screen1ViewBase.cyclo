@@ -65,10 +65,10 @@
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:98:10:void touchgfx::TextAreaWithOneWildcard::setWildcard(const UnicodeChar*)	1
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:36:7:touchgfx::View<Screen1Presenter>::~View()	1
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:36:7:virtual touchgfx::View<Screen1Presenter>::~View()	1
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/generated/gui_generated/src/screen1_screen/Screen1ViewBase.cpp:9:1:Screen1ViewBase::Screen1ViewBase()	1
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/generated/gui_generated/src/screen1_screen/Screen1ViewBase.cpp:32:1:Screen1ViewBase::~Screen1ViewBase()	1
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/generated/gui_generated/src/screen1_screen/Screen1ViewBase.cpp:32:1:virtual Screen1ViewBase::~Screen1ViewBase()	1
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/generated/gui_generated/src/screen1_screen/Screen1ViewBase.cpp:37:6:virtual void Screen1ViewBase::setupScreen()	1
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/generated/gui_generated/src/screen1_screen/Screen1ViewBase.cpp:9:1:Screen1ViewBase::Screen1ViewBase()	1
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/generated/gui_generated/src/screen1_screen/Screen1ViewBase.cpp:32:1:Screen1ViewBase::~Screen1ViewBase()	1
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/generated/gui_generated/src/screen1_screen/Screen1ViewBase.cpp:32:1:virtual Screen1ViewBase::~Screen1ViewBase()	1
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/generated/gui_generated/src/screen1_screen/Screen1ViewBase.cpp:37:6:virtual void Screen1ViewBase::setupScreen()	1
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:39:5:touchgfx::View<T>::View() [with T = Screen1Presenter]	1
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:62:7:touchgfx::TextAreaWithOneWildcard::~TextAreaWithOneWildcard()	1
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:62:7:virtual touchgfx::TextAreaWithOneWildcard::~TextAreaWithOneWildcard()	1

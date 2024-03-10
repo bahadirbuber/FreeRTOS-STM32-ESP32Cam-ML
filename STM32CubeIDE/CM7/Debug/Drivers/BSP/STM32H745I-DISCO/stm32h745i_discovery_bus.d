@@ -1,7 +1,7 @@
 Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_bus.o: \
- C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_bus.c \
- C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_bus.h \
- C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_conf.h \
+ /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_bus.c \
+ /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_bus.h \
+ /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_conf.h \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  ../../../CM7/Core/Inc/stm32h7xx_hal_conf.h \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
@@ -45,9 +45,9 @@ Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_bus.o: \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h \
- C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_errno.h
-C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_bus.h:
-C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_conf.h:
+ /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_errno.h
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_bus.h:
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_conf.h:
 ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:
 ../../../CM7/Core/Inc/stm32h7xx_hal_conf.h:
 ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h:
@@ -91,4 +91,4 @@ C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discover
 ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h:
 ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h:
 ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h:
-C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_errno.h:
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_errno.h:

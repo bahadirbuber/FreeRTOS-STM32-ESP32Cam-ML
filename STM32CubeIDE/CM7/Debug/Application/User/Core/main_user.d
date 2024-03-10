@@ -1,5 +1,5 @@
 Application/User/Core/main_user.o: \
- C:/TouchGFXProjects/RTOS_ML_SPI/CM7/Core/Src/main_user.c \
+ /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/Core/Src/main_user.c \
  ../../../CM7/Core/Inc/main_user.h \
  ../../../Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_qspi.h \
  ../../../Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_conf.h \

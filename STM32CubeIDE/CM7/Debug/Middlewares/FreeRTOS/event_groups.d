@@ -1,5 +1,5 @@
 Middlewares/FreeRTOS/event_groups.o: \
- C:/TouchGFXProjects/RTOS_ML_SPI/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c \
+ /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c \
  ../../../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
  ../../../CM7/Core/Inc/FreeRTOSConfig.h \
  ../../../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \

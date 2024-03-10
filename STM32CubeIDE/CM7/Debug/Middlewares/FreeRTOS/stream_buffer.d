@@ -1,5 +1,5 @@
 Middlewares/FreeRTOS/stream_buffer.o: \
- C:/TouchGFXProjects/RTOS_ML_SPI/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c \
+ /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c \
  ../../../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
  ../../../CM7/Core/Inc/FreeRTOSConfig.h \
  ../../../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \

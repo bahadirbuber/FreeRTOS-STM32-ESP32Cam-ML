@@ -5,10 +5,10 @@
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	1
 ../../CM7/../../CM7/TouchGFX/gui/include/gui/screen1_screen/Screen1View.hpp:12:13:Screen1View::~Screen1View()	1
 ../../CM7/../../CM7/TouchGFX/gui/include/gui/screen1_screen/Screen1View.hpp:12:13:virtual Screen1View::~Screen1View()	1
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:20:1:Screen1View::Screen1View()	1
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:26:6:virtual void Screen1View::setupScreen()	1
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:31:6:virtual void Screen1View::tearDownScreen()	1
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:36:6:virtual void Screen1View::uart_Data(unsigned char*)	1
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:40:6:virtual void Screen1View::decodeJPG_()	1
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:43:6:virtual void Screen1View::setJpegImg_(touchgfx::BitmapId)	1
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:50:6:virtual void Screen1View::setFPS_(uint8_t)	1
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:20:1:Screen1View::Screen1View()	1
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:26:6:virtual void Screen1View::setupScreen()	1
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:31:6:virtual void Screen1View::tearDownScreen()	1
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:36:6:virtual void Screen1View::uart_Data(unsigned char*)	1
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:40:6:virtual void Screen1View::decodeJPG_()	1
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:43:6:virtual void Screen1View::setJpegImg_(touchgfx::BitmapId)	1
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:50:6:virtual void Screen1View::setFPS_(uint8_t)	1

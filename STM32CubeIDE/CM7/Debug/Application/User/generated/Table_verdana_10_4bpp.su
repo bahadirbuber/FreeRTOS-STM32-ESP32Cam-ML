@@ -4,5 +4,5 @@
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/ConstFont.hpp:35:7:virtual touchgfx::ConstFont::~ConstFont()	16	static
 ../../CM7/../../CM7/TouchGFX/generated/fonts/include/fonts/GeneratedFont.hpp:11:7:touchgfx::GeneratedFont::~GeneratedFont()	16	static
 ../../CM7/../../CM7/TouchGFX/generated/fonts/include/fonts/GeneratedFont.hpp:11:7:virtual touchgfx::GeneratedFont::~GeneratedFont()	16	static
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/generated/fonts/src/Table_verdana_10_4bpp.cpp:25:167:void __tcf_0()	8	static
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/generated/fonts/src/Table_verdana_10_4bpp.cpp:23:26:touchgfx::GeneratedFont& getFont_verdana_10_4bpp()	64	static
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/generated/fonts/src/Table_verdana_10_4bpp.cpp:25:167:void __tcf_0()	8	static
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/generated/fonts/src/Table_verdana_10_4bpp.cpp:23:26:touchgfx::GeneratedFont& getFont_verdana_10_4bpp()	64	static

@@ -1,5 +1,5 @@
 Application/User/generated/FrontendApplicationBase.o: \
- C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp \
+ /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp \
  ../../CM7/../../CM7/TouchGFX/generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp \
  ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/mvp/MVPApplication.hpp \
  ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/common/AbstractPartition.hpp \

@@ -15,23 +15,23 @@
 ../../../CM7/TouchGFX/target/generated/STM32DMA.hpp:219:10:void STM32DMA::externalJobExecute()	16	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/hal/HAL.hpp:110:17:static touchgfx::HAL* touchgfx::HAL::getInstance()	4	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/hal/HAL.hpp:164:10:void touchgfx::HAL::signalDMAInterrupt()	16	static
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/target/generated/STM32DMA.cpp:41:17:void DMA2D_XferCpltCallback(DMA2D_HandleTypeDef*)	16	static
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/target/generated/STM32DMA.cpp:41:17:void DMA2D_XferCpltCallback(DMA2D_HandleTypeDef*)	16	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/hal/BlitOp.hpp:46:8:touchgfx::BlitOp::BlitOp()	16	static
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/target/generated/STM32DMA.cpp:48:1:STM32DMA::STM32DMA()	24	static
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/target/generated/STM32DMA.cpp:54:1:STM32DMA::~STM32DMA()	16	static
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/target/generated/STM32DMA.cpp:54:1:virtual STM32DMA::~STM32DMA()	16	static
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/target/generated/STM32DMA.cpp:60:6:virtual void STM32DMA::initialize()	24	static
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/target/generated/STM32DMA.cpp:74:17:uint32_t STM32DMA::getChromARTInputFormat(touchgfx::Bitmap::BitmapFormat)	24	static
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/target/generated/STM32DMA.cpp:109:17:uint32_t STM32DMA::getChromARTOutputFormat(touchgfx::Bitmap::BitmapFormat)	24	static
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/target/generated/STM32DMA.cpp:142:16:virtual touchgfx::BlitOperations STM32DMA::getBlitCaps()	16	static
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/target/generated/STM32DMA.cpp:165:6:virtual void STM32DMA::setupDataCopy(const touchgfx::BlitOp&)	48	static
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/target/generated/STM32DMA.cpp:332:6:virtual void STM32DMA::setupDataFill(const touchgfx::BlitOp&)	32	static
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/target/generated/STM32DMA.cpp:400:6:void touchgfx::paint::setL8Palette(const uint8_t*)	16	static
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/target/generated/STM32DMA.cpp:411:6:void touchgfx::paint::tearDown()	4	static
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/target/generated/STM32DMA.cpp:428:6:void touchgfx::paint::rgb888::lineFromColor(uint8_t*, unsigned int, uint32_t, uint8_t)	24	static
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/target/generated/STM32DMA.cpp:478:6:void touchgfx::paint::rgb888::lineFromRGB888(uint8_t*, const uint8_t*, unsigned int, uint8_t)	24	static
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/target/generated/STM32DMA.cpp:522:6:void touchgfx::paint::rgb888::lineFromARGB8888(uint8_t*, const uint32_t*, unsigned int, uint8_t)	24	static
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/target/generated/STM32DMA.cpp:554:6:void touchgfx::paint::rgb888::lineFromL8RGB888(uint8_t*, const uint8_t*, unsigned int, uint8_t)	24	static
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/target/generated/STM32DMA.cpp:619:6:void touchgfx::paint::rgb888::lineFromL8ARGB8888(uint8_t*, const uint8_t*, unsigned int, uint8_t)	24	static
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/target/generated/STM32DMA.cpp:48:1:STM32DMA::STM32DMA()	24	static
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/target/generated/STM32DMA.cpp:54:1:STM32DMA::~STM32DMA()	16	static
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/target/generated/STM32DMA.cpp:54:1:virtual STM32DMA::~STM32DMA()	16	static
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/target/generated/STM32DMA.cpp:60:6:virtual void STM32DMA::initialize()	24	static
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/target/generated/STM32DMA.cpp:74:17:uint32_t STM32DMA::getChromARTInputFormat(touchgfx::Bitmap::BitmapFormat)	24	static
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/target/generated/STM32DMA.cpp:109:17:uint32_t STM32DMA::getChromARTOutputFormat(touchgfx::Bitmap::BitmapFormat)	24	static
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/target/generated/STM32DMA.cpp:142:16:virtual touchgfx::BlitOperations STM32DMA::getBlitCaps()	16	static
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/target/generated/STM32DMA.cpp:165:6:virtual void STM32DMA::setupDataCopy(const touchgfx::BlitOp&)	48	static
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/target/generated/STM32DMA.cpp:332:6:virtual void STM32DMA::setupDataFill(const touchgfx::BlitOp&)	32	static
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/target/generated/STM32DMA.cpp:400:6:void touchgfx::paint::setL8Palette(const uint8_t*)	16	static
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/target/generated/STM32DMA.cpp:411:6:void touchgfx::paint::tearDown()	4	static
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/target/generated/STM32DMA.cpp:428:6:void touchgfx::paint::rgb888::lineFromColor(uint8_t*, unsigned int, uint32_t, uint8_t)	24	static
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/target/generated/STM32DMA.cpp:478:6:void touchgfx::paint::rgb888::lineFromRGB888(uint8_t*, const uint8_t*, unsigned int, uint8_t)	24	static
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/target/generated/STM32DMA.cpp:522:6:void touchgfx::paint::rgb888::lineFromARGB8888(uint8_t*, const uint32_t*, unsigned int, uint8_t)	24	static
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/target/generated/STM32DMA.cpp:554:6:void touchgfx::paint::rgb888::lineFromL8RGB888(uint8_t*, const uint8_t*, unsigned int, uint8_t)	24	static
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/target/generated/STM32DMA.cpp:619:6:void touchgfx::paint::rgb888::lineFromL8ARGB8888(uint8_t*, const uint8_t*, unsigned int, uint8_t)	24	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/hal/DMA.hpp:87:7:touchgfx::LockFreeDMA_Queue::~LockFreeDMA_Queue()	16	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/hal/DMA.hpp:87:7:virtual touchgfx::LockFreeDMA_Queue::~LockFreeDMA_Queue()	16	static

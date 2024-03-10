@@ -1,5 +1,5 @@
 Application/User/generated/TypedTextDatabase.o: \
- C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/generated/texts/src/TypedTextDatabase.cpp \
+ /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/generated/texts/src/TypedTextDatabase.cpp \
  ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp \
  ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/Font.hpp \
  ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/Unicode.hpp \

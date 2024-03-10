@@ -1,5 +1,5 @@
 Application/User/generated/UnmappedDataFont.o: \
- C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/generated/fonts/src/UnmappedDataFont.cpp \
+ /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/generated/fonts/src/UnmappedDataFont.cpp \
  ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/hal/FlashDataReader.hpp \
  ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Types.hpp \
  ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Config.hpp \

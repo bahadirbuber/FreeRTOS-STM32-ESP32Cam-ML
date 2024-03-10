@@ -5,24 +5,24 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c \
-C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c \
-C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c \
-C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c \
-C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c \
-C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c \
-C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c \
-C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c \
-C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c \
-C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c \
-C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c \
-C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c \
-C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c \
-C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c \
-C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c \
-C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c \
-C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c \
-C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c 
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c \
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c \
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c \
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c \
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c \
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c \
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c \
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c \
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c \
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c \
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c \
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c \
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c \
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c \
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c \
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c \
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c \
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c 
 
 C_DEPS += \
 ./Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal.d \
@@ -66,41 +66,41 @@ OBJS += \
 
 
 # Each subdirectory must supply rules for building sources it contributes
-Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal.o: C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
+Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal.o: /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32H745xx -c -I../../../CM4/Core/Inc -I../../../Drivers/STM32H7xx_HAL_Driver/Inc -I../../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_cortex.o: C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
+Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_cortex.o: /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32H745xx -c -I../../../CM4/Core/Inc -I../../../Drivers/STM32H7xx_HAL_Driver/Inc -I../../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_dma.o: C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
+Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_dma.o: /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32H745xx -c -I../../../CM4/Core/Inc -I../../../Drivers/STM32H7xx_HAL_Driver/Inc -I../../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_dma_ex.o: C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
+Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_dma_ex.o: /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32H745xx -c -I../../../CM4/Core/Inc -I../../../Drivers/STM32H7xx_HAL_Driver/Inc -I../../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_exti.o: C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
+Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_exti.o: /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32H745xx -c -I../../../CM4/Core/Inc -I../../../Drivers/STM32H7xx_HAL_Driver/Inc -I../../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_flash.o: C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
+Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_flash.o: /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32H745xx -c -I../../../CM4/Core/Inc -I../../../Drivers/STM32H7xx_HAL_Driver/Inc -I../../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_flash_ex.o: C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
+Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_flash_ex.o: /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32H745xx -c -I../../../CM4/Core/Inc -I../../../Drivers/STM32H7xx_HAL_Driver/Inc -I../../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_gpio.o: C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
+Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_gpio.o: /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32H745xx -c -I../../../CM4/Core/Inc -I../../../Drivers/STM32H7xx_HAL_Driver/Inc -I../../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_hsem.o: C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
+Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_hsem.o: /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32H745xx -c -I../../../CM4/Core/Inc -I../../../Drivers/STM32H7xx_HAL_Driver/Inc -I../../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_i2c.o: C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
+Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_i2c.o: /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32H745xx -c -I../../../CM4/Core/Inc -I../../../Drivers/STM32H7xx_HAL_Driver/Inc -I../../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_i2c_ex.o: C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
+Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_i2c_ex.o: /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32H745xx -c -I../../../CM4/Core/Inc -I../../../Drivers/STM32H7xx_HAL_Driver/Inc -I../../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_mdma.o: C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
+Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_mdma.o: /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32H745xx -c -I../../../CM4/Core/Inc -I../../../Drivers/STM32H7xx_HAL_Driver/Inc -I../../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_pwr.o: C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
+Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_pwr.o: /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32H745xx -c -I../../../CM4/Core/Inc -I../../../Drivers/STM32H7xx_HAL_Driver/Inc -I../../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_pwr_ex.o: C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
+Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_pwr_ex.o: /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32H745xx -c -I../../../CM4/Core/Inc -I../../../Drivers/STM32H7xx_HAL_Driver/Inc -I../../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_rcc.o: C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
+Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_rcc.o: /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32H745xx -c -I../../../CM4/Core/Inc -I../../../Drivers/STM32H7xx_HAL_Driver/Inc -I../../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_rcc_ex.o: C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
+Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_rcc_ex.o: /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32H745xx -c -I../../../CM4/Core/Inc -I../../../Drivers/STM32H7xx_HAL_Driver/Inc -I../../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_tim.o: C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
+Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_tim.o: /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32H745xx -c -I../../../CM4/Core/Inc -I../../../Drivers/STM32H7xx_HAL_Driver/Inc -I../../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_tim_ex.o: C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
+Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_tim_ex.o: /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32H745xx -c -I../../../CM4/Core/Inc -I../../../Drivers/STM32H7xx_HAL_Driver/Inc -I../../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
 
 clean: clean-Drivers-2f-STM32H7xx_HAL_Driver

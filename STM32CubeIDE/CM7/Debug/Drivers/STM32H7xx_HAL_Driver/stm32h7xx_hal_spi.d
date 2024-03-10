@@ -1,5 +1,5 @@
 Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_spi.o: \
- C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c \
+ /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  ../../../CM7/Core/Inc/stm32h7xx_hal_conf.h \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \

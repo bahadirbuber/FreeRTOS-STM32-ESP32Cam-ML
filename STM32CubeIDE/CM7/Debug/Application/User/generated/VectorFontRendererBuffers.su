@@ -1,1 +1,1 @@
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/generated/fonts/src/VectorFontRendererBuffers.cpp:5:6:static void touchgfx::VectorFontRendererImpl::getVectorFontBuffers(float*&, int&, uint8_t*&, int&)	24	static
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/generated/fonts/src/VectorFontRendererBuffers.cpp:5:6:static void touchgfx::VectorFontRendererImpl::getVectorFontBuffers(float*&, int&, uint8_t*&, int&)	24	static

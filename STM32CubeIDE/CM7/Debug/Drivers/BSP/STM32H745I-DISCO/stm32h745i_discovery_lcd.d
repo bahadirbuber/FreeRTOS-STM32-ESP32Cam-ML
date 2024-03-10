@@ -1,7 +1,7 @@
 Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_lcd.o: \
- C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_lcd.c \
- C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_lcd.h \
- C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_conf.h \
+ /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_lcd.c \
+ /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_lcd.h \
+ /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_conf.h \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  ../../../CM7/Core/Inc/stm32h7xx_hal_conf.h \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
@@ -45,19 +45,19 @@ Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_lcd.o: \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h \
- C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_errno.h \
- C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/../Components/rk043fn48h/rk043fn48h.h \
+ /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_errno.h \
+ /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/../Components/rk043fn48h/rk043fn48h.h \
  ../../../Drivers/BSP/Components/Common/lcd.h \
- C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_ts.h \
- C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/../Components/ft5336/ft5336.h \
- C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/../Components/ft5336/ft5336_reg.h \
- C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/../Components/ft5336/ft5336_conf.h \
- C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_bus.h \
- C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_sdram.h \
- C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/../Components/mt48lc4m32b2/mt48lc4m32b2.h \
- C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/../Components/mt48lc4m32b2/mt48lc4m32b2_conf.h
-C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_lcd.h:
-C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_conf.h:
+ /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_ts.h \
+ /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/../Components/ft5336/ft5336.h \
+ /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/../Components/ft5336/ft5336_reg.h \
+ /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/../Components/ft5336/ft5336_conf.h \
+ /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_bus.h \
+ /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_sdram.h \
+ /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/../Components/mt48lc4m32b2/mt48lc4m32b2.h \
+ /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/../Components/mt48lc4m32b2/mt48lc4m32b2_conf.h
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_lcd.h:
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_conf.h:
 ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:
 ../../../CM7/Core/Inc/stm32h7xx_hal_conf.h:
 ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h:
@@ -101,14 +101,14 @@ C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discover
 ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h:
 ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h:
 ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h:
-C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_errno.h:
-C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/../Components/rk043fn48h/rk043fn48h.h:
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_errno.h:
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/../Components/rk043fn48h/rk043fn48h.h:
 ../../../Drivers/BSP/Components/Common/lcd.h:
-C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_ts.h:
-C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/../Components/ft5336/ft5336.h:
-C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/../Components/ft5336/ft5336_reg.h:
-C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/../Components/ft5336/ft5336_conf.h:
-C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_bus.h:
-C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_sdram.h:
-C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/../Components/mt48lc4m32b2/mt48lc4m32b2.h:
-C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/../Components/mt48lc4m32b2/mt48lc4m32b2_conf.h:
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_ts.h:
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/../Components/ft5336/ft5336.h:
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/../Components/ft5336/ft5336_reg.h:
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/../Components/ft5336/ft5336_conf.h:
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_bus.h:
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_sdram.h:
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/../Components/mt48lc4m32b2/mt48lc4m32b2.h:
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/../Components/mt48lc4m32b2/mt48lc4m32b2_conf.h:

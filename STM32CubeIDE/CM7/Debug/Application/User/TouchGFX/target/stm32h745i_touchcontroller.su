@@ -1,2 +1,2 @@
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/target/stm32h745i_touchcontroller.cpp:11:6:void STM32H745ITouchController::init()	24	static
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/target/stm32h745i_touchcontroller.cpp:37:6:bool STM32H745ITouchController::sampleTouch(int32_t&, int32_t&)	16	static
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/target/stm32h745i_touchcontroller.cpp:11:6:void STM32H745ITouchController::init()	24	static
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/target/stm32h745i_touchcontroller.cpp:37:6:bool STM32H745ITouchController::sampleTouch(int32_t&, int32_t&)	16	static

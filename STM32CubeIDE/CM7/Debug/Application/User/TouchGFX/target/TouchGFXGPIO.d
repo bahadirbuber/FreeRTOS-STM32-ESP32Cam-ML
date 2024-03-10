@@ -1,5 +1,5 @@
 Application/User/TouchGFX/target/TouchGFXGPIO.o: \
- C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/target/TouchGFXGPIO.cpp \
+ /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/target/TouchGFXGPIO.cpp \
  ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/hal/GPIO.hpp \
  ../../../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h \
  ../../../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h745xx.h \
@@ -44,7 +44,7 @@ Application/User/TouchGFX/target/TouchGFXGPIO.o: \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h \
- C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/target/../../Core/Inc/main.h \
+ /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/target/../../Core/Inc/main.h \
  ../../../Utilities/JPEG/jpeg_utils.h \
  ../../../CM7/Core/Inc/jpeg_utils_conf.h
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/hal/GPIO.hpp:
@@ -91,6 +91,6 @@ Application/User/TouchGFX/target/TouchGFXGPIO.o: \
 ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h:
 ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h:
 ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h:
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/target/../../Core/Inc/main.h:
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/target/../../Core/Inc/main.h:
 ../../../Utilities/JPEG/jpeg_utils.h:
 ../../../CM7/Core/Inc/jpeg_utils_conf.h:

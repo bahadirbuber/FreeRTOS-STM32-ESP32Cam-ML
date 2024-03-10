@@ -1,5 +1,5 @@
 Application/User/TouchGFX/target/generated/TouchGFXConfiguration.o: \
- C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/target/generated/TouchGFXConfiguration.cpp \
+ /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/target/generated/TouchGFXConfiguration.cpp \
  ../../CM7/../../CM7/TouchGFX/generated/texts/include/texts/TypedTextDatabase.hpp \
  ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp \
  ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/Font.hpp \

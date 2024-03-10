@@ -1,5 +1,5 @@
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/gui/src/model/Model.cpp:24:1:Model::Model()	1
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/gui/src/model/Model.cpp:29:6:void Model::tick()	3
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/gui/src/model/Model.cpp:39:6:void Model::decodeJPG(int)	1
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/gui/src/model/Model.cpp:43:6:void Model::setJpegImg()	1
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/gui/src/model/Model.cpp:48:6:void Model::setFPS(uint8_t)	1
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/gui/src/model/Model.cpp:24:1:Model::Model()	1
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/gui/src/model/Model.cpp:29:6:void Model::tick()	3
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/gui/src/model/Model.cpp:39:6:void Model::decodeJPG(int)	1
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/gui/src/model/Model.cpp:43:6:void Model::setJpegImg()	1
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/gui/src/model/Model.cpp:48:6:void Model::setFPS(uint8_t)	1

@@ -1,8 +1,8 @@
-C:/TouchGFXProjects/RTOS_ML_SPI/Utilities/JPEG/jpeg_utils.c:1118:17:JPEG_MCU_YCbCr420_ARGB_ConvertBlocks	7
-C:/TouchGFXProjects/RTOS_ML_SPI/Utilities/JPEG/jpeg_utils.c:1302:17:JPEG_MCU_YCbCr422_ARGB_ConvertBlocks	6
-C:/TouchGFXProjects/RTOS_ML_SPI/Utilities/JPEG/jpeg_utils.c:1433:17:JPEG_MCU_YCbCr444_ARGB_ConvertBlocks	5
-C:/TouchGFXProjects/RTOS_ML_SPI/Utilities/JPEG/jpeg_utils.c:1538:17:JPEG_MCU_Gray_ARGB_ConvertBlocks	5
-C:/TouchGFXProjects/RTOS_ML_SPI/Utilities/JPEG/jpeg_utils.c:1615:17:JPEG_MCU_YCCK_ARGB_ConvertBlocks	5
-C:/TouchGFXProjects/RTOS_ML_SPI/Utilities/JPEG/jpeg_utils.c:1708:19:JPEG_GetDecodeColorConvertFunc	13
-C:/TouchGFXProjects/RTOS_ML_SPI/Utilities/JPEG/jpeg_utils.c:1816:6:JPEG_InitPostProcColorTables	2
-C:/TouchGFXProjects/RTOS_ML_SPI/Utilities/JPEG/jpeg_utils.c:1838:6:JPEG_InitColorTables	1
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Utilities/JPEG/jpeg_utils.c:1118:17:JPEG_MCU_YCbCr420_ARGB_ConvertBlocks	7
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Utilities/JPEG/jpeg_utils.c:1302:17:JPEG_MCU_YCbCr422_ARGB_ConvertBlocks	6
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Utilities/JPEG/jpeg_utils.c:1433:17:JPEG_MCU_YCbCr444_ARGB_ConvertBlocks	5
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Utilities/JPEG/jpeg_utils.c:1538:17:JPEG_MCU_Gray_ARGB_ConvertBlocks	5
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Utilities/JPEG/jpeg_utils.c:1615:17:JPEG_MCU_YCCK_ARGB_ConvertBlocks	5
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Utilities/JPEG/jpeg_utils.c:1708:19:JPEG_GetDecodeColorConvertFunc	13
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Utilities/JPEG/jpeg_utils.c:1816:6:JPEG_InitPostProcColorTables	2
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Utilities/JPEG/jpeg_utils.c:1838:6:JPEG_InitColorTables	1

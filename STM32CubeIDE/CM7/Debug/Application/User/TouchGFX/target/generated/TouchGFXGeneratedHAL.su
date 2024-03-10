@@ -88,7 +88,7 @@
 ../../../CM7/TouchGFX/target/generated/HardwareMJPEGDecoder.hpp:79:10:void HardwareMJPEGDecoder::addDMA(touchgfx::DMA_Interface&)	16	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/VideoWidget.hpp:159:10:void touchgfx::VideoWidget::setVideoBuffer(uint8_t*)	16	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/VideoWidget.hpp:172:10:void touchgfx::VideoWidget::setVideoBufferFormat(touchgfx::Bitmap::BitmapFormat, int16_t, int16_t)	24	static
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:38:18:static touchgfx::VideoController& touchgfx::VideoController::getInstance()	4	static
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:38:18:static touchgfx::VideoController& touchgfx::VideoController::getInstance()	4	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/hal/VectorRenderer.hpp:38:7:constexpr touchgfx::VectorRenderer::VectorRenderer()	16	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/CanvasWidget.hpp:33:7:touchgfx::CanvasWidget::~CanvasWidget()	16	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/CanvasWidget.hpp:33:7:virtual touchgfx::CanvasWidget::~CanvasWidget()	16	static
@@ -98,22 +98,22 @@ C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/target/generated/TouchGFXGeneratedH
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/CWRVectorRenderer.hpp:44:7:virtual touchgfx::CWRVectorRenderer::~CWRVectorRenderer()	16	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/PainterRGB888LinearGradient.hpp:32:7:touchgfx::PainterRGB888LinearGradient::PainterRGB888LinearGradient()	16	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/CWRVectorRenderer.hpp:334:7:touchgfx::CWRVectorRendererRGB888::CWRVectorRendererRGB888()	32	static
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:47:36:void __tcf_1()	8	static
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:45:17:static touchgfx::VectorRenderer* touchgfx::VectorRenderer::getInstance()	8	static
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:67:6:virtual void TouchGFXGeneratedHAL::initialize()	24	static
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:84:6:virtual void TouchGFXGeneratedHAL::configureInterrupts()	16	static
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:90:6:virtual void TouchGFXGeneratedHAL::enableInterrupts()	16	static
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:96:6:virtual void TouchGFXGeneratedHAL::disableInterrupts()	16	static
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:102:6:virtual void TouchGFXGeneratedHAL::enableLCDControllerInterrupt()	16	static
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:113:6:virtual bool TouchGFXGeneratedHAL::beginFrame()	16	static
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:118:6:virtual void TouchGFXGeneratedHAL::endFrame()	16	static
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:123:11:virtual uint16_t* TouchGFXGeneratedHAL::getTFTFrameBuffer() const	16	static
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:128:6:virtual void TouchGFXGeneratedHAL::setTFTFrameBuffer(uint16_t*)	16	static
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:136:6:virtual void TouchGFXGeneratedHAL::flushFrameBuffer(const touchgfx::Rect&)	16	static
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:141:6:virtual bool TouchGFXGeneratedHAL::blockCopy(void*, const void*, uint32_t)	24	static
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:146:6:virtual void TouchGFXGeneratedHAL::InvalidateCache()	32	static,ignoring_inline_asm
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:158:6:virtual void TouchGFXGeneratedHAL::FlushCache()	32	static,ignoring_inline_asm
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:172:10:void HAL_LTDC_LineEventCallback(LTDC_HandleTypeDef*)	16	static
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:47:36:void __tcf_1()	8	static
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:45:17:static touchgfx::VectorRenderer* touchgfx::VectorRenderer::getInstance()	8	static
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:67:6:virtual void TouchGFXGeneratedHAL::initialize()	24	static
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:84:6:virtual void TouchGFXGeneratedHAL::configureInterrupts()	16	static
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:90:6:virtual void TouchGFXGeneratedHAL::enableInterrupts()	16	static
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:96:6:virtual void TouchGFXGeneratedHAL::disableInterrupts()	16	static
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:102:6:virtual void TouchGFXGeneratedHAL::enableLCDControllerInterrupt()	16	static
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:113:6:virtual bool TouchGFXGeneratedHAL::beginFrame()	16	static
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:118:6:virtual void TouchGFXGeneratedHAL::endFrame()	16	static
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:123:11:virtual uint16_t* TouchGFXGeneratedHAL::getTFTFrameBuffer() const	16	static
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:128:6:virtual void TouchGFXGeneratedHAL::setTFTFrameBuffer(uint16_t*)	16	static
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:136:6:virtual void TouchGFXGeneratedHAL::flushFrameBuffer(const touchgfx::Rect&)	16	static
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:141:6:virtual bool TouchGFXGeneratedHAL::blockCopy(void*, const void*, uint32_t)	24	static
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:146:6:virtual void TouchGFXGeneratedHAL::InvalidateCache()	32	static,ignoring_inline_asm
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:158:6:virtual void TouchGFXGeneratedHAL::FlushCache()	32	static,ignoring_inline_asm
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:172:10:void HAL_LTDC_LineEventCallback(LTDC_HandleTypeDef*)	16	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/hal/VideoController.hpp:85:7:constexpr touchgfx::VideoController::VideoController()	16	static
 ../../../CM7/TouchGFX/target/generated/DirectFrameBufferVideoController.hpp:34:5:DirectFrameBufferVideoController<no_streams, output_format>::DirectFrameBufferVideoController() [with long unsigned int no_streams = 1; touchgfx::Bitmap::BitmapFormat output_format = touchgfx::Bitmap::RGB888]	24	static
 ../../../CM7/TouchGFX/target/generated/DirectFrameBufferVideoController.hpp:268:10:void DirectFrameBufferVideoController<no_streams, output_format>::addDecoder(MJPEGDecoder&, uint32_t) [with long unsigned int no_streams = 1; touchgfx::Bitmap::BitmapFormat output_format = touchgfx::Bitmap::RGB888]	24	static
@@ -128,7 +128,7 @@ C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/target/generated/TouchGFXGeneratedH
 ../../../CM7/TouchGFX/target/generated/TouchGFXGeneratedHAL.hpp:30:7:virtual TouchGFXGeneratedHAL::~TouchGFXGeneratedHAL()	16	static
 ../../../CM7/TouchGFX/target/generated/HardwareMJPEGDecoder.hpp:45:7:HardwareMJPEGDecoder::~HardwareMJPEGDecoder()	16	static
 ../../../CM7/TouchGFX/target/generated/HardwareMJPEGDecoder.hpp:45:7:virtual HardwareMJPEGDecoder::~HardwareMJPEGDecoder()	16	static
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:202:1:void __static_initialization_and_destruction_0(int, int)	16	static
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:202:1:void __static_initialization_and_destruction_0(int, int)	16	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/PainterRGB888.hpp:34:7:touchgfx::PainterRGB888::~PainterRGB888()	16	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/PainterRGB888.hpp:34:7:virtual touchgfx::PainterRGB888::~PainterRGB888()	16	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/PainterRGB888LinearGradient.hpp:32:7:touchgfx::PainterRGB888LinearGradient::~PainterRGB888LinearGradient()	16	static
@@ -147,5 +147,5 @@ C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/target/generated/TouchGFXGeneratedH
 ../../../CM7/TouchGFX/target/generated/DirectFrameBufferVideoController.hpp:295:18:void DirectFrameBufferVideoController<no_streams, output_format>::setVideoFrameRateCompensation(bool) [with long unsigned int no_streams = 1; touchgfx::Bitmap::BitmapFormat output_format = touchgfx::Bitmap::RGB888]	16	static
 ../../../CM7/TouchGFX/target/generated/DirectFrameBufferVideoController.hpp:353:12:touchgfx::VideoController::Handle DirectFrameBufferVideoController<no_streams, output_format>::getFreeHandle() [with long unsigned int no_streams = 1; touchgfx::Bitmap::BitmapFormat output_format = touchgfx::Bitmap::RGB888]	24	static
 ../../../CM7/TouchGFX/target/generated/DirectFrameBufferVideoController.hpp:333:10:bool DirectFrameBufferVideoController<no_streams, output_format>::decodeForNextTick(DirectFrameBufferVideoController<no_streams, output_format>::Stream&) [with long unsigned int no_streams = 1; touchgfx::Bitmap::BitmapFormat output_format = touchgfx::Bitmap::RGB888]	16	static
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:202:1:cpp)	8	static
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:202:1:cpp)	8	static
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:202:1:cpp)	8	static
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:202:1:cpp)	8	static

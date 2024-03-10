@@ -1,7 +1,7 @@
 Drivers/BSP/Components/mt48lc4m32b2.o: \
- C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/Components/mt48lc4m32b2/mt48lc4m32b2.c \
- C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/Components/mt48lc4m32b2/mt48lc4m32b2.h \
- C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/Components/mt48lc4m32b2/mt48lc4m32b2_conf.h \
+ /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/BSP/Components/mt48lc4m32b2/mt48lc4m32b2.c \
+ /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/BSP/Components/mt48lc4m32b2/mt48lc4m32b2.h \
+ /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/BSP/Components/mt48lc4m32b2/mt48lc4m32b2_conf.h \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  ../../../CM7/Core/Inc/stm32h7xx_hal_conf.h \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
@@ -45,8 +45,8 @@ Drivers/BSP/Components/mt48lc4m32b2.o: \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h
-C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/Components/mt48lc4m32b2/mt48lc4m32b2.h:
-C:/TouchGFXProjects/RTOS_ML_SPI/Drivers/BSP/Components/mt48lc4m32b2/mt48lc4m32b2_conf.h:
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/BSP/Components/mt48lc4m32b2/mt48lc4m32b2.h:
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/BSP/Components/mt48lc4m32b2/mt48lc4m32b2_conf.h:
 ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:
 ../../../CM7/Core/Inc/stm32h7xx_hal_conf.h:
 ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h:

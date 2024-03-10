@@ -1,5 +1,5 @@
 Application/User/TouchGFX/target/generated/HardwareMJPEGDecoder.o: \
- C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/target/generated/HardwareMJPEGDecoder.cpp \
+ /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/target/generated/HardwareMJPEGDecoder.cpp \
  ../../../CM7/TouchGFX/target/generated/HardwareMJPEGDecoder.hpp \
  ../../../CM7/TouchGFX/target/generated/MJPEGDecoder.hpp \
  ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Types.hpp \

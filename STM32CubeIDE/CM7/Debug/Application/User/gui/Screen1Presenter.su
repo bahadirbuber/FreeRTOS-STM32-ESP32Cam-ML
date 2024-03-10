@@ -12,10 +12,10 @@
 ../../CM7/../../CM7/TouchGFX/gui/include/gui/model/ModelListener.hpp:21:18:virtual void ModelListener::_setFPS(uint8_t)	16	static
 ../../CM7/../../CM7/TouchGFX/gui/include/gui/screen1_screen/Screen1Presenter.hpp:28:13:Screen1Presenter::~Screen1Presenter()	16	static
 ../../CM7/../../CM7/TouchGFX/gui/include/gui/screen1_screen/Screen1Presenter.hpp:28:13:virtual Screen1Presenter::~Screen1Presenter()	16	static
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/gui/src/screen1_screen/Screen1Presenter.cpp:19:1:Screen1Presenter::Screen1Presenter(Screen1View&)	16	static
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/gui/src/screen1_screen/Screen1Presenter.cpp:26:6:virtual void Screen1Presenter::activate()	16	static
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/gui/src/screen1_screen/Screen1Presenter.cpp:31:6:virtual void Screen1Presenter::deactivate()	16	static
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/gui/src/screen1_screen/Screen1Presenter.cpp:35:6:virtual void Screen1Presenter::uart_Data(unsigned char*)	16	static
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/gui/src/screen1_screen/Screen1Presenter.cpp:39:6:virtual void Screen1Presenter::_decodeJPG(int)	24	static
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/gui/src/screen1_screen/Screen1Presenter.cpp:48:6:virtual void Screen1Presenter::_setJpegImg()	16	static
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/gui/src/screen1_screen/Screen1Presenter.cpp:52:6:virtual void Screen1Presenter::_setFPS(uint8_t)	16	static
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/gui/src/screen1_screen/Screen1Presenter.cpp:19:1:Screen1Presenter::Screen1Presenter(Screen1View&)	16	static
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/gui/src/screen1_screen/Screen1Presenter.cpp:26:6:virtual void Screen1Presenter::activate()	16	static
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/gui/src/screen1_screen/Screen1Presenter.cpp:31:6:virtual void Screen1Presenter::deactivate()	16	static
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/gui/src/screen1_screen/Screen1Presenter.cpp:35:6:virtual void Screen1Presenter::uart_Data(unsigned char*)	16	static
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/gui/src/screen1_screen/Screen1Presenter.cpp:39:6:virtual void Screen1Presenter::_decodeJPG(int)	24	static
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/gui/src/screen1_screen/Screen1Presenter.cpp:48:6:virtual void Screen1Presenter::_setJpegImg()	16	static
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/gui/src/screen1_screen/Screen1Presenter.cpp:52:6:virtual void Screen1Presenter::_setFPS(uint8_t)	16	static

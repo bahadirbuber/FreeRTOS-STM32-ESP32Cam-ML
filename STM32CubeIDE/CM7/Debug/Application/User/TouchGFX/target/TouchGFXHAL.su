@@ -17,14 +17,14 @@
 ../../../CM7/TouchGFX/target/generated/TouchGFXGeneratedHAL.hpp:30:7:TouchGFXGeneratedHAL::~TouchGFXGeneratedHAL()	16	static
 ../../../CM7/TouchGFX/target/generated/TouchGFXGeneratedHAL.hpp:30:7:virtual TouchGFXGeneratedHAL::~TouchGFXGeneratedHAL()	16	static
 ../../../CM7/TouchGFX/target/TouchGFXHAL.hpp:102:18:virtual void TouchGFXHAL::flushFrameBuffer()	16	static
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/target/TouchGFXHAL.cpp:27:6:virtual void TouchGFXHAL::initialize()	16	static
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/target/TouchGFXHAL.cpp:47:11:virtual uint16_t* TouchGFXHAL::getTFTFrameBuffer() const	16	static
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/target/TouchGFXHAL.cpp:62:6:virtual void TouchGFXHAL::setTFTFrameBuffer(uint16_t*)	16	static
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/target/TouchGFXHAL.cpp:79:6:virtual void TouchGFXHAL::flushFrameBuffer(const touchgfx::Rect&)	16	static
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/target/TouchGFXHAL.cpp:94:6:virtual bool TouchGFXHAL::blockCopy(void*, const void*, uint32_t)	24	static
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/target/TouchGFXHAL.cpp:103:6:virtual void TouchGFXHAL::configureInterrupts()	16	static
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/target/TouchGFXHAL.cpp:116:6:virtual void TouchGFXHAL::enableInterrupts()	16	static
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/target/TouchGFXHAL.cpp:129:6:virtual void TouchGFXHAL::disableInterrupts()	16	static
-C:/TouchGFXProjects/RTOS_ML_SPI/CM7/TouchGFX/target/TouchGFXHAL.cpp:143:6:virtual void TouchGFXHAL::enableLCDControllerInterrupt()	16	static
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/target/TouchGFXHAL.cpp:27:6:virtual void TouchGFXHAL::initialize()	16	static
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/target/TouchGFXHAL.cpp:47:11:virtual uint16_t* TouchGFXHAL::getTFTFrameBuffer() const	16	static
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/target/TouchGFXHAL.cpp:62:6:virtual void TouchGFXHAL::setTFTFrameBuffer(uint16_t*)	16	static
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/target/TouchGFXHAL.cpp:79:6:virtual void TouchGFXHAL::flushFrameBuffer(const touchgfx::Rect&)	16	static
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/target/TouchGFXHAL.cpp:94:6:virtual bool TouchGFXHAL::blockCopy(void*, const void*, uint32_t)	24	static
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/target/TouchGFXHAL.cpp:103:6:virtual void TouchGFXHAL::configureInterrupts()	16	static
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/target/TouchGFXHAL.cpp:116:6:virtual void TouchGFXHAL::enableInterrupts()	16	static
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/target/TouchGFXHAL.cpp:129:6:virtual void TouchGFXHAL::disableInterrupts()	16	static
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/target/TouchGFXHAL.cpp:143:6:virtual void TouchGFXHAL::enableLCDControllerInterrupt()	16	static
 ../../../CM7/TouchGFX/target/TouchGFXHAL.hpp:34:7:TouchGFXHAL::~TouchGFXHAL()	16	static
 ../../../CM7/TouchGFX/target/TouchGFXHAL.hpp:34:7:virtual TouchGFXHAL::~TouchGFXHAL()	16	static

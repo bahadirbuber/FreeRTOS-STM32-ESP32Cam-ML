@@ -1,5 +1,5 @@
 Application/User/Core/stm32h7xx_it.o: \
- C:/TouchGFXProjects/RTOS_ML_SPI/CM4/Core/Src/stm32h7xx_it.c \
+ /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM4/Core/Src/stm32h7xx_it.c \
  ../../../CM4/Core/Inc/main.h \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  ../../../CM4/Core/Inc/stm32h7xx_hal_conf.h \
