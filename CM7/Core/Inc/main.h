@@ -47,6 +47,14 @@ extern "C" {
 /* Exported types ------------------------------------------------------------*/
 /* USER CODE BEGIN ET */
 #define BUFFER_SIZE 128
+
+typedef struct
+{
+	uint16_t x;
+	uint16_t y;
+	uint16_t width;
+	uint16_t height;
+}Rect_t;
 /* USER CODE END ET */
 
 /* Exported constants --------------------------------------------------------*/

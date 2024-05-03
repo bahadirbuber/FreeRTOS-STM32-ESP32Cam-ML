@@ -27,7 +27,6 @@ public:
 
     virtual ~Screen1Presenter() {}
 
-    virtual void uart_Data (unsigned char *data);
 
     virtual void _decodeJPG(int totalLength);
     virtual void _setJpegImg();

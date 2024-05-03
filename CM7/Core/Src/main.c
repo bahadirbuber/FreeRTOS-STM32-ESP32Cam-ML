@@ -35,7 +35,7 @@
 
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
-#define EnableM4CPU 0
+#define EnableM4CPU
 #define PUTCHAR_PROTOTYPE int __io_putchar(int ch)
 //#define BUFFER_SIZE 256
 /* USER CODE END PTD */
@@ -83,14 +83,14 @@ SDRAM_HandleTypeDef hsdram2;
 osThreadId_t defaultTaskHandle;
 const osThreadAttr_t defaultTask_attributes = {
   .name = "defaultTask",
-  .stack_size = 2048 * 4,
+  .stack_size = 3096 * 4,
   .priority = (osPriority_t) osPriorityNormal,
 };
 /* Definitions for TouchGFXTask */
 osThreadId_t TouchGFXTaskHandle;
 const osThreadAttr_t TouchGFXTask_attributes = {
   .name = "TouchGFXTask",
-  .stack_size = 3048 * 4,
+  .stack_size = 2048 * 4,
   .priority = (osPriority_t) osPriorityNormal,
 };
 /* Definitions for spiQueue */
@@ -229,9 +229,7 @@ static void DMA2D_CopyBuffer(uint32_t *pSrc, uint32_t *pDst, uint16_t x, uint16_
 void HAL_SPI_RxCpltCallback(SPI_HandleTypeDef * hspi)
 {
 	if (osMessageQueueGetSpace(spiQueueHandle)>0)
-	{
 		osMessageQueuePut(spiQueueHandle, RX_Buffer, 0U, 0U);
-	}
 }
 
 /* USER CODE END 0 */
@@ -261,7 +259,7 @@ int main(void)
 
 /* USER CODE BEGIN Boot_Mode_Sequence_1 */
   /* Wait until CPU2 boots and enters in stop mode or timeout*/
-#ifndef EnableM4CPU
+#ifdef EnableM4CPU
   int32_t timeout;
  timeout = 0xFFFF;
  while((__HAL_RCC_GET_FLAG(RCC_FLAG_D2CKRDY) != RESET) && (timeout-- > 0));
@@ -285,7 +283,7 @@ int main(void)
 /* USER CODE BEGIN Boot_Mode_Sequence_2 */
 /* When system initialization is finished, Cortex-M7 will release Cortex-M4 by means of
 HSEM notification */
-#ifndef EnableM4CPU
+#ifdef EnableM4CPU
 /*HW semaphore Clock enable*/
 __HAL_RCC_HSEM_CLK_ENABLE();
 /*Take HSEM */
@@ -342,7 +340,7 @@ Error_Handler();
 
   /* Create the queue(s) */
   /* creation of spiQueue */
-  spiQueueHandle = osMessageQueueNew (10, sizeof(RX_Buffer), &spiQueue_attributes);
+  spiQueueHandle = osMessageQueueNew (5, sizeof(RX_Buffer), &spiQueue_attributes);
 
   /* creation of jpgDecode */
   jpgDecodeHandle = osMessageQueueNew (5, sizeof(uint8_t), &jpgDecode_attributes);
@@ -387,6 +385,7 @@ Error_Handler();
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+
   }
   /* USER CODE END 3 */
 }
@@ -667,7 +666,7 @@ static void MX_SPI2_Init(void)
   hspi2.Init.DataSize = SPI_DATASIZE_8BIT;
   hspi2.Init.CLKPolarity = SPI_POLARITY_HIGH;
   hspi2.Init.CLKPhase = SPI_PHASE_1EDGE;
-  hspi2.Init.NSS = SPI_NSS_HARD_INPUT;
+  hspi2.Init.NSS = SPI_NSS_SOFT;
   hspi2.Init.FirstBit = SPI_FIRSTBIT_MSB;
   hspi2.Init.TIMode = SPI_TIMODE_DISABLE;
   hspi2.Init.CRCCalculation = SPI_CRCCALCULATION_DISABLE;
@@ -949,6 +948,7 @@ void StartJPEGDecodeTask(void *argument){
 			uint8_t val = 1;
 			osMessageQueuePut(afterJPGDecodeHandle, &val, 0U, 0U);
 		}
+		osDelay(1);
 	}
 }
 /* USER CODE END 4 */
@@ -966,10 +966,11 @@ void StartDefaultTask(void *argument)
 	uint8_t m_Rx_Buffer[BUFFER_SIZE];
 	int offsetIndPacket=0;
 //	uint32_t xPos = 0, yPos = 0;
+
 	__HAL_DMA_DISABLE_IT(&hdma_spi2_rx,DMA_IT_HT);
 	//uint8_t isFinished = 0;
 
-	/* Infinite loop */
+	/* Infinite lsoop */
 	for(;;)
 	{
 	  if(osMessageQueueGet(spiQueueHandle,m_Rx_Buffer , 0, 0) == osOK){

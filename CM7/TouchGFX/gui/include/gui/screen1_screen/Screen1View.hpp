@@ -12,11 +12,11 @@ public:
     virtual ~Screen1View() {}
     virtual void setupScreen();
     virtual void tearDownScreen();
-    virtual void uart_Data (unsigned char *data);
 
     virtual void decodeJPG_();
     virtual void setJpegImg_(BitmapId bmpID);
     virtual void setFPS_(uint8_t fps);
+    virtual void drawRect(uint16_t x, uint16_t y, uint16_t width, uint16_t height);
 
 protected:
 };

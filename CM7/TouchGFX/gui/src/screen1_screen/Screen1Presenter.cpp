@@ -32,9 +32,6 @@ void Screen1Presenter::deactivate()
 {
 
 }
-void Screen1Presenter::uart_Data (unsigned char *data){
-	view.uart_Data (data);
-}
 
 void Screen1Presenter::_decodeJPG(int totalLength)
 {

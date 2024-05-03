@@ -8,8 +8,12 @@
 #include <mvp/View.hpp>
 #include <gui/screen1_screen/Screen1Presenter.hpp>
 #include <touchgfx/widgets/Box.hpp>
+#include <touchgfx/widgets/BoxWithBorder.hpp>
 #include <touchgfx/widgets/Image.hpp>
 #include <touchgfx/widgets/TextAreaWithWildcard.hpp>
+#include <touchgfx/widgets/canvas/Line.hpp>
+#include <touchgfx/widgets/canvas/PainterRGB888.hpp>
+#include <touchgfx/Color.hpp>
 
 class Screen1ViewBase : public touchgfx::View<Screen1Presenter>
 {
@@ -30,6 +34,15 @@ protected:
     touchgfx::Image image1;
     touchgfx::TextAreaWithOneWildcard textArea1;
     touchgfx::Image image2;
+    //MEMBERS
+    touchgfx::Line lineTop;
+	touchgfx::PainterRGB888 lineTopPainter;
+	touchgfx::Line lineLeft;
+	touchgfx::PainterRGB888 lineLeftPainter;
+	touchgfx::Line lineRight;
+	touchgfx::PainterRGB888 lineRightPainter;
+	touchgfx::Line lineBottom;
+	touchgfx::PainterRGB888 lineBottomPainter;
 
     /*
      * Wildcard Buffers

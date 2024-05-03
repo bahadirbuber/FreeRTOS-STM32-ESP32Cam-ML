@@ -47,7 +47,7 @@
 
 DMA_HandleTypeDef hdma_memtomem_dma1_stream2;
 /* USER CODE BEGIN PV */
-
+int notifyReceived;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -60,7 +60,10 @@ static void MX_GPIO_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
+void HAL_HSEM_FreeCallback(uint32_t SemMask){
+	notifyReceived = 1;
+	HAL_HSEM_ActivateNotification(__HAL_HSEM_SEMID_TO_MASK(HSEM_ID_0));
+}
 /* USER CODE END 0 */
 
 /**
@@ -106,7 +109,7 @@ int main(void)
   MX_DMA_Init();
   MX_GPIO_Init();
   /* USER CODE BEGIN 2 */
-
+  HAL_HSEM_ActivateNotification(__HAL_HSEM_SEMID_TO_MASK(HSEM_ID_0));
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -116,6 +119,10 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+	  if(notifyReceived == 1){
+		  HAL_GPIO_TogglePin(GPIOJ, GPIO_PIN_2);
+		  HAL_Delay(100);
+	  }
   }
   /* USER CODE END 3 */
 }

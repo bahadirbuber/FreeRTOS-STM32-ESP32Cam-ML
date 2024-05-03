@@ -27,6 +27,45 @@ Screen1ViewBase::Screen1ViewBase()
     image2.setXY(138, 18);
     image2.setBitmap(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_BACKGROUNDS_320X240_GRADIENT_LIGHT_ID));
     add(image2);
+
+    //TESTING
+    lineTop.setPosition(40, 145, 150, 10);
+	lineTopPainter.setColor(touchgfx::Color::getColorFromRGB(47, 237, 21));
+	lineTop.setPainter(lineTopPainter);
+	lineTop.setStart(0, 5);
+	lineTop.setEnd(150, 5);
+	lineTop.setLineWidth(6);
+	lineTop.setLineEndingStyle(touchgfx::Line::BUTT_CAP_ENDING);
+	add(lineTop);
+
+	lineLeft.setPosition(35, 150, 10, 70);
+	lineLeftPainter.setColor(touchgfx::Color::getColorFromRGB(47, 237, 21));
+	lineLeft.setPainter(lineLeftPainter);
+	lineLeft.setStart(5, 0);
+	lineLeft.setEnd(5, 70);
+	lineLeft.setLineWidth(6);
+	lineLeft.setLineEndingStyle(touchgfx::Line::ROUND_CAP_ENDING);
+	add(lineLeft);
+
+	lineRight.setPosition(185, 150, 10, 70);
+	lineRightPainter.setColor(touchgfx::Color::getColorFromRGB(47, 237, 21));
+	lineRight.setPainter(lineRightPainter);
+	lineRight.setStart(5, 0);
+	lineRight.setEnd(5, 70);
+	lineRight.setLineWidth(6);
+	lineRight.setLineEndingStyle(touchgfx::Line::ROUND_CAP_ENDING);
+	add(lineRight);
+
+	lineBottom.setPosition(40, 215, 150, 10);
+	lineBottomPainter.setColor(touchgfx::Color::getColorFromRGB(47, 237, 21));
+	lineBottom.setPainter(lineBottomPainter);
+	lineBottom.setStart(0, 5);
+	lineBottom.setEnd(190, 5);
+	lineBottom.setLineWidth(6);
+	lineBottom.setLineEndingStyle(touchgfx::Line::ROUND_CAP_ENDING);
+	add(lineBottom);
+
+
 }
 
 Screen1ViewBase::~Screen1ViewBase()
