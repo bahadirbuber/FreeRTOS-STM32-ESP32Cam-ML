@@ -1,7 +1,7 @@
 {
     "_allocate_inputs": 4,
     "_allocate_outputs": 4,
-    "cli_parameters": "analyze --target stm32h7 --name network -m /Users/bahadirbuber/Downloads/mobilenet_v2_0.35_128_fft_int8.tflite --compression none --verbosity 1 --allocate-inputs --allocate-outputs --workspace /var/folders/7v/jz4fp2xj54q78_6184n34z_h0000gn/T/mxAI_workspace257099196292084943611081950938237 --output /Users/bahadirbuber/.stm32cubemx/network_output",
+    "cli_parameters": "generate --target stm32h7 --name network -m /Users/bahadirbuber/Downloads/mobilenet_v2_0.35_128_fft_int8.tflite --compression none --verbosity 1 --allocate-inputs --allocate-outputs --workspace /var/folders/7v/jz4fp2xj54q78_6184n34z_h0000gn/T/mxAI_workspace2753461013083318097945352620939092 --output /Users/bahadirbuber/.stm32cubemx/network_output",
     "cli_version": {
         "extra": "19802",
         "major": 9,
@@ -11,10 +11,10 @@
     "cli_version_str": "9.0.0-19802",
     "code_size": 0,
     "compression": [],
-    "date_time": "Wed May  8 20:33:16 2024",
+    "date_time": "Wed May  8 21:21:45 2024",
     "error": 0,
     "error_str": [],
-    "exec_cmd": "analyze",
+    "exec_cmd": "generate",
     "exec_duration": 0.0,
     "hash": "0xb929379f2a0799f906b109a192dde7c6",
     "inputs": [

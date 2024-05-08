@@ -23052,35 +23052,35 @@
   "environment": {
     "device": null,
     "generated_model": {
-      "generated_time": "Wed May  8 20:33:16 2024",
+      "generated_time": "Wed May  8 21:21:45 2024",
       "model_files": [
         {
           "name": "network_data_params.h",
-          "signature": "0xdeff900868eba3f8b4e98839f1be1171"
+          "signature": "0xfed1426f6f6921169df13dc4654b24af"
         },
         {
           "name": "network_data_params.c",
-          "signature": "0x8b0574b678ca98efd1dba356d46fa7be"
+          "signature": "0x4aff9e9f0b24287031d3359beb9ff307"
         },
         {
           "name": "network_data.h",
-          "signature": "0x34604dce3d821978bc5e2583a5dc6e94"
+          "signature": "0x23673d09a215f84001d25d6adcf1a641"
         },
         {
           "name": "network_data.c",
-          "signature": "0x4bbcf10e2be2889489f2cdb8f8392b05"
+          "signature": "0xd98dc9799f850575d7859b426741f1eb"
         },
         {
           "name": "network_config.h",
-          "signature": "0xee93cbb9bdb78b24877bc905e35fa38c"
+          "signature": "0xd3c695c1258b4e0ca08418a6943e5508"
         },
         {
           "name": "network.h",
-          "signature": "0x69779e32344330d41383665e71ec93a3"
+          "signature": "0x0681130c11ba146129f446f89e66b3fb"
         },
         {
           "name": "network.c",
-          "signature": "0x2c89505e5d1a98ff0eb75ebc0755fd93"
+          "signature": "0xf04b63ccf7e1af16fcb623a7ca006283"
         }
       ],
       "n_params": null,
@@ -23088,11 +23088,11 @@
       "size": null,
       "type": null
     },
-    "network_signature": "0xb616fb7ad1145e8c",
+    "network_signature": "0x4a469b73ee0d53e0",
     "test_name": "",
     "tools": [
       {
-        "arguments": "analyze --target stm32h7 --name network -m /Users/bahadirbuber/Downloads/mobilenet_v2_0.35_128_fft_int8.tflite --compression none --verbosity 1 --allocate-inputs --allocate-outputs --workspace /var/folders/7v/jz4fp2xj54q78_6184n34z_h0000gn/T/mxAI_workspace257099196292084943611081950938237 --output /Users/bahadirbuber/.stm32cubemx/network_output",
+        "arguments": "generate --target stm32h7 --name network -m /Users/bahadirbuber/Downloads/mobilenet_v2_0.35_128_fft_int8.tflite --compression none --verbosity 1 --allocate-inputs --allocate-outputs --workspace /var/folders/7v/jz4fp2xj54q78_6184n34z_h0000gn/T/mxAI_workspace2753461013083318097945352620939092 --output /Users/bahadirbuber/.stm32cubemx/network_output",
         "environment": [
           "STATS_TYPE=X-CUBE-AI"
         ],
@@ -27885,12 +27885,12 @@
       0,
       0
     ],
-    "kernel_flash": 103614,
-    "kernel_ram": 30744,
-    "series": "stm32h7",
-    "toolchain": "arm-none-eabi-gcc (GNU Tools for STM32 11.3.rel1.20230912-1600) 11.3.1 20220712",
-    "toolchain_flash": 1616,
-    "toolchain_ram": 0,
+    "kernel_flash": null,
+    "kernel_ram": null,
+    "series": "generic",
+    "toolchain": null,
+    "toolchain_flash": null,
+    "toolchain_ram": null,
     "weights": 411492
   },
   "memory_pools": [
