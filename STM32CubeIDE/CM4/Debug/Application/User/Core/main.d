@@ -28,7 +28,15 @@ Application/User/Core/main.o: \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h \
- ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h
+ ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h \
+ ../../../Middlewares/ST/AI/Inc/ai_datatypes_defines.h \
+ ../../../Middlewares/ST/AI/Inc/ai_platform.h \
+ ../../../Middlewares/ST/AI/Inc/core_assert.h \
+ ../../../Middlewares/ST/AI/Inc/ai_platform.h \
+ ../../../CM4/X-CUBE-AI/App/network.h \
+ ../../../CM4/X-CUBE-AI/App/network_config.h \
+ ../../../CM4/X-CUBE-AI/App/network_data.h \
+ ../../../CM4/X-CUBE-AI/App/network_data_params.h
 ../../../CM4/Core/Inc/main.h:
 ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:
 ../../../CM4/Core/Inc/stm32h7xx_hal_conf.h:
@@ -58,3 +66,11 @@ Application/User/Core/main.o: \
 ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h:
 ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h:
 ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h:
+../../../Middlewares/ST/AI/Inc/ai_datatypes_defines.h:
+../../../Middlewares/ST/AI/Inc/ai_platform.h:
+../../../Middlewares/ST/AI/Inc/core_assert.h:
+../../../Middlewares/ST/AI/Inc/ai_platform.h:
+../../../CM4/X-CUBE-AI/App/network.h:
+../../../CM4/X-CUBE-AI/App/network_config.h:
+../../../CM4/X-CUBE-AI/App/network_data.h:
+../../../CM4/X-CUBE-AI/App/network_data_params.h:

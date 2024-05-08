@@ -22,7 +22,10 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "ai_datatypes_defines.h"
+#include "ai_platform.h"
+#include "network.h"
+#include "network_data.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -48,6 +51,19 @@
 DMA_HandleTypeDef hdma_memtomem_dma1_stream2;
 /* USER CODE BEGIN PV */
 int notifyReceived;
+
+ai_handle network_model = AI_HANDLE_NULL;
+
+AI_ALIGNED(32)
+static ai_u8 activations[AI_NETWORK_DATA_ACTIVATIONS_SIZE];
+
+AI_ALIGNED(32)
+static ai_float in_data[AI_NETWORK_IN_1_SIZE];
+AI_ALIGNED(32)
+static ai_float out_data[AI_NETWORK_OUT_1_SIZE];
+
+static ai_buffer *ai_input;
+static ai_buffer *ai_output;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -55,6 +71,7 @@ static void MX_MDMA_Init(void);
 static void MX_DMA_Init(void);
 static void MX_GPIO_Init(void);
 /* USER CODE BEGIN PFP */
+void Resize_Frame2(uint8_t *src, uint8_t *dst,uint16_t srcwidth,uint16_t srcheight);
 
 /* USER CODE END PFP */
 
@@ -64,6 +81,43 @@ void HAL_HSEM_FreeCallback(uint32_t SemMask){
 	notifyReceived = 1;
 	HAL_HSEM_ActivateNotification(__HAL_HSEM_SEMID_TO_MASK(HSEM_ID_0));
 }
+
+//int aiInit(void) {
+//  ai_error err;
+//
+//  /* Create and initialize the c-model */
+//  const ai_handle acts[] = { activations };
+//  err = ai_network_create_and_init(&network, acts, NULL);
+//  if (err.type != AI_ERROR_NONE) {
+//	  printf("Hello worldd\r\n");
+//	  return -1;
+//  }
+//
+//  /* Reteive pointers to the model's input/output tensors */
+//  ai_input = ai_network_inputs_get(network, NULL);
+//  ai_output = ai_network_outputs_get(network, NULL);
+//
+//  return 0;
+//}
+//
+//int aiRun(const void *in_data, void *out_data) {
+//  ai_i32 n_batch;
+//  ai_error err;
+//
+//  /* 1 - Update IO handlers with the data payload */
+//  ai_input[0].data = AI_HANDLE_PTR(in_data);
+//  ai_output[0].data = AI_HANDLE_PTR(out_data);
+//
+//  /* 2 - Perform the inference */
+//  n_batch = ai_network_run(network, &ai_input[0], &ai_output[0]);
+//  if (n_batch != 1) {
+//      err = ai_network_get_error(network);
+//      printf("errr\r\n");
+//
+//  };
+//
+//  return 0;
+//}
 /* USER CODE END 0 */
 
 /**
@@ -73,6 +127,9 @@ void HAL_HSEM_FreeCallback(uint32_t SemMask){
 int main(void)
 {
   /* USER CODE BEGIN 1 */
+
+
+
 
   /* USER CODE END 1 */
 
@@ -110,6 +167,74 @@ int main(void)
   MX_GPIO_Init();
   /* USER CODE BEGIN 2 */
   HAL_HSEM_ActivateNotification(__HAL_HSEM_SEMID_TO_MASK(HSEM_ID_0));
+  ai_handle network = AI_HANDLE_NULL;
+  ai_error err;
+  ai_network_report report;
+
+  /** @brief Initialize network */
+  const ai_handle acts[] = { activations };
+  err = ai_network_create_and_init(&network, acts, NULL);
+  if (err.type != AI_ERROR_NONE) {
+	  printf("ai init_and_create error\n");
+	  return -1;
+  }
+
+  /** @brief {optional} for debug/log purpose */
+  if (ai_network_get_report(network, &report) != true) {
+	  printf("ai get report error\n");
+	  return -1;
+  }
+
+  printf("Model name      : %s\n", report.model_name);
+  printf("Model signature : %s\n", report.model_signature);
+
+  ai_input = &report.inputs[0];
+  ai_output = &report.outputs[0];
+  printf("input[0] : (%d, %d, %d)\n", AI_BUFFER_SHAPE_ELEM(ai_input, AI_SHAPE_HEIGHT),
+									  AI_BUFFER_SHAPE_ELEM(ai_input, AI_SHAPE_WIDTH),
+									  AI_BUFFER_SHAPE_ELEM(ai_input, AI_SHAPE_CHANNEL));
+  printf("output[0] : (%d, %d, %d)\n", AI_BUFFER_SHAPE_ELEM(ai_output, AI_SHAPE_HEIGHT),
+									   AI_BUFFER_SHAPE_ELEM(ai_output, AI_SHAPE_WIDTH),
+									   AI_BUFFER_SHAPE_ELEM(ai_output, AI_SHAPE_CHANNEL));
+
+  /** @brief Fill input buffer with random values */
+  srand(1);
+  for (int i = 0; i < AI_NETWORK_IN_1_SIZE; i++) {
+	  in_data[i] = rand() % 0xFFFF;
+  }
+
+  /** @brief Normalize, convert and/or quantize inputs if necessary... */
+
+  /** @brief Perform inference */
+  ai_i32 n_batch;
+
+  /** @brief Create the AI buffer IO handlers
+   *  @note  ai_inuput/ai_output are already initilaized after the
+   *         ai_network_get_report() call. This is just here to illustrate
+   *         the case where get_report() is not called.
+   */
+  ai_input = ai_network_inputs_get(network, NULL);
+  ai_output = ai_network_outputs_get(network, NULL);
+
+  /** @brief Set input/output buffer addresses */
+  ai_input[0].data = AI_HANDLE_PTR(in_data);
+  ai_output[0].data = AI_HANDLE_PTR(out_data);
+
+  /** @brief Perform the inference */
+  n_batch = ai_network_run(network, &ai_input[0], &ai_output[0]);
+  if (n_batch != 1) {
+	  err = ai_network_get_error(network);
+	  printf("ai run error %d, %d\n", err.type, err.code);
+  }else {
+	  /** @brief Post-process the output results/predictions */
+	    printf("Inference output..\n");
+	    for (int i = 0; i < AI_NETWORK_OUT_1_SIZE; i++) {
+	  	  printf("%d,", out_data[i]);
+	    }
+	    printf("\n");
+  }
+
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -119,10 +244,12 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-	  if(notifyReceived == 1){
-		  HAL_GPIO_TogglePin(GPIOJ, GPIO_PIN_2);
-		  HAL_Delay(100);
-	  }
+//	  if(notifyReceived == 1){
+//		  HAL_GPIO_TogglePin(GPIOJ, GPIO_PIN_2);
+//		  HAL_Delay(100);
+//	  }
+//	  acquire_and_process_data(in_data);
+
   }
   /* USER CODE END 3 */
 }
@@ -200,7 +327,35 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
+#define resizeImgwidth 128
+#define resizeImgheight 128
+void Resize_Frame2(uint8_t *src, uint8_t *dst,uint16_t srcwidth,uint16_t srcheight)
+{//https://www.programcreek.com/cpp/?CodeExample=resize+image
+	int numComponents=3;
+    int srcPitch = srcwidth * numComponents;
 
+    float ratioX = (float)srcwidth / resizeImgwidth;
+    float ratioY = (float)srcheight / resizeImgheight;
+
+    for (int y = 0; y < resizeImgheight; y++) {
+        int iY = y * ratioY;
+
+        int offsetY = iY * srcPitch;
+
+        for (int x = 0; x < resizeImgwidth; x++) {
+            int iX = x * ratioX;
+
+            int offsetX = iX * numComponents;
+
+            //const T *srcPtrY = &src[offsetY];
+            uint8_t *ptr = &src[offsetY];
+
+            for (int i = 0; i < numComponents; i++) {
+                *dst++ = ptr[offsetX + i];
+            }
+        }
+    }
+}
 /* USER CODE END 4 */
 
 /**

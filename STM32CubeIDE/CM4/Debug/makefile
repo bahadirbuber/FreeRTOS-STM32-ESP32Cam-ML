@@ -11,6 +11,7 @@ RM := rm -rf
 -include sources.mk
 -include Drivers/STM32H7xx_HAL_Driver/subdir.mk
 -include Drivers/CMSIS/subdir.mk
+-include Application/User/X-CUBE-AI/App/subdir.mk
 -include Application/User/Startup/subdir.mk
 -include Application/User/Core/subdir.mk
 -include objects.mk

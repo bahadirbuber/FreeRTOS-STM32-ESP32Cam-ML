@@ -702,7 +702,7 @@
         }
     },
     "activations_alignment": 4,
-    "arguments": "generate --target stm32h7 --name network -m /Users/bahadirbuber/Downloads/mobilenet_v2_0.35_128_fft_int8.tflite --compression none --verbosity 1 --allocate-inputs --allocate-outputs --workspace /var/folders/7v/jz4fp2xj54q78_6184n34z_h0000gn/T/mxAI_workspace233165045431673816320757314223831 --output /Users/bahadirbuber/.stm32cubemx/network_output",
+    "arguments": "analyze --target stm32h7 --name network -m /Users/bahadirbuber/Downloads/mobilenet_v2_0.35_128_fft_int8.tflite --compression none --verbosity 1 --allocate-inputs --allocate-outputs --workspace /var/folders/7v/jz4fp2xj54q78_6184n34z_h0000gn/T/mxAI_workspace257099196292084943611081950938237 --output /Users/bahadirbuber/.stm32cubemx/network_output",
     "c_activations_count": 1,
     "c_arrays": [
         {
@@ -24485,7 +24485,7 @@
         ]
     },
     "data_alignment": 4,
-    "date_time": "Fri May  3 22:26:07 2024",
+    "date_time": "Wed May  8 20:33:16 2024",
     "inputs": [
         "serving_default_input_10_output"
     ],
@@ -24496,7 +24496,12 @@
             0,
             0
         ],
-        "series": "generic",
+        "kernel_flash": 103614,
+        "kernel_ram": 30744,
+        "series": "stm32h7",
+        "toolchain": "arm-none-eabi-gcc (GNU Tools for STM32 11.3.rel1.20230912-1600) 11.3.1 20220712",
+        "toolchain_flash": 1616,
+        "toolchain_ram": 0,
         "weights": 411492
     },
     "memory_pools": [],

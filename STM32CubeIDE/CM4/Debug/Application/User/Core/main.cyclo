@@ -1,4 +1,7 @@
-/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM4/Core/Src/main.c:69:5:main	2
-/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM4/Core/Src/main.c:126:13:MX_DMA_Init	2
-/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM4/Core/Src/main.c:156:13:MX_MDMA_Init	1
-/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM4/Core/Src/main.c:173:6:Error_Handler	1
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM4/Core/Src/main.c:80:6:HAL_HSEM_FreeCallback	1
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM4/Core/Src/main.c:127:5:main	7
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM4/Core/Src/main.c:262:13:MX_DMA_Init	2
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM4/Core/Src/main.c:292:13:MX_MDMA_Init	1
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM4/Core/Src/main.c:306:13:MX_GPIO_Init	1
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM4/Core/Src/main.c:332:6:Resize_Frame2	4
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM4/Core/Src/main.c:365:6:Error_Handler	1

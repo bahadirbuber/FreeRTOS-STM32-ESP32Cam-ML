@@ -1,14 +1,19 @@
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/Bitmap.hpp:132:5:touchgfx::Bitmap::Bitmap(touchgfx::BitmapId)	1
+../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:233:10:void touchgfx::Drawable::setPosition(int16_t, int16_t, int16_t, int16_t)	1
+../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:343:10:void touchgfx::Drawable::setXY(int16_t, int16_t)	1
+../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:413:10:void touchgfx::Drawable::setWidthHeight(int16_t, int16_t)	1
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	1
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:115:18:virtual void touchgfx::Screen::tearDownScreen()	1
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	1
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	1
+../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/CWRUtil.hpp:70:18:touchgfx::CWRUtil::Q5::Q5(int)	1
 ../../CM7/../../CM7/TouchGFX/gui/include/gui/screen1_screen/Screen1View.hpp:12:13:Screen1View::~Screen1View()	1
 ../../CM7/../../CM7/TouchGFX/gui/include/gui/screen1_screen/Screen1View.hpp:12:13:virtual Screen1View::~Screen1View()	1
 /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:20:1:Screen1View::Screen1View()	1
 /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:26:6:virtual void Screen1View::setupScreen()	1
 /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:31:6:virtual void Screen1View::tearDownScreen()	1
-/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:36:6:virtual void Screen1View::uart_Data(unsigned char*)	1
-/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:40:6:virtual void Screen1View::decodeJPG_()	1
-/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:43:6:virtual void Screen1View::setJpegImg_(touchgfx::BitmapId)	1
-/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:50:6:virtual void Screen1View::setFPS_(uint8_t)	1
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:36:6:virtual void Screen1View::decodeJPG_()	1
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:39:6:virtual void Screen1View::setJpegImg_(touchgfx::BitmapId)	1
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:45:6:virtual void Screen1View::drawRect(uint16_t, uint16_t, uint16_t, uint16_t)	1
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM7/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:78:6:virtual void Screen1View::setFPS_(uint8_t)	1
+../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/Line.hpp:95:10:void touchgfx::Line::setStart(T, T) [with T = int]	1
