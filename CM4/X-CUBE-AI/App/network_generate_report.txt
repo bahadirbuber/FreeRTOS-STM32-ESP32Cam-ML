@@ -1,6 +1,6 @@
 STEdgeAI Core v9.0.0-19802
-Created date          : 2024-05-03 22:26:08
-Parameters            : generate --target stm32h7 --name network -m /Users/bahadirbuber/Downloads/mobilenet_v2_0.35_128_fft_int8.tflite --compression none --verbosity 1 --allocate-inputs --allocate-outputs --workspace /var/folders/7v/jz4fp2xj54q78_6184n34z_h0000gn/T/mxAI_workspace233165045431673816320757314223831 --output /Users/bahadirbuber/.stm32cubemx/network_output
+Created date          : 2024-05-09 21:55:56
+Parameters            : generate --target stm32h7 --name network -m /Users/bahadirbuber/Downloads/mobilenet_v2_0.35_128_fft_int8.tflite --compression none --verbosity 1 --allocate-inputs --allocate-outputs --workspace /var/folders/7v/jz4fp2xj54q78_6184n34z_h0000gn/T/mxAI_workspace451464714714169857976944238400585 --output /Users/bahadirbuber/.stm32cubemx/network_output
 
 Exec/report summary (generate)
 -----------------------------------------------------------------------------------------------------------------------------------
@@ -11,7 +11,7 @@ compression        :   none
 options            :   allocate-inputs, allocate-outputs                                                                           
 optimization       :   balanced                                                                                                    
 target/series      :   stm32h7                                                                                                     
-workspace dir      :   /var/folders/7v/jz4fp2xj54q78_6184n34z_h0000gn/T/mxAI_workspace233165045431673816320757314223831            
+workspace dir      :   /var/folders/7v/jz4fp2xj54q78_6184n34z_h0000gn/T/mxAI_workspace451464714714169857976944238400585            
 output dir         :   /Users/bahadirbuber/.stm32cubemx/network_output                                                             
 model_fmt          :   sa/ua per tensor                                                                                            
 model_name         :   mobilenet_v2_0_35_128_fft_int8                                                                              
