@@ -32,6 +32,11 @@
 	</natures>
 	<linkedResources>
 		<link>
+			<name>AI</name>
+			<type>2</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Middlewares/ST/AI</locationURI>
+		</link>
+		<link>
 			<name>Doc/network_generate_report.txt</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/CM4/X-CUBE-AI/App/network_generate_report.txt</locationURI>

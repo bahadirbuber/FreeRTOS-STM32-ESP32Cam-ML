@@ -32,6 +32,8 @@ extern "C" {
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "network.h"
+#include "network_data.h"
 
 /* USER CODE END Includes */
 

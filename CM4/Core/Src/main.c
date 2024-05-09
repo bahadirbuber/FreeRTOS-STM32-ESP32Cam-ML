@@ -64,6 +64,13 @@ void HAL_HSEM_FreeCallback(uint32_t SemMask){
 	notifyReceived = 1;
 	HAL_HSEM_ActivateNotification(__HAL_HSEM_SEMID_TO_MASK(HSEM_ID_0));
 }
+ai_u8 activations[AI_NETWORK_DATA_ACTIVATIONS_SIZE];
+ai_u8 in_data[AI_NETWORK_IN_1_SIZE_BYTES];
+ai_u8 out_data[AI_NETWORK_OUT_1_SIZE_BYTES];
+
+/* AI buffer IO handlers */
+ai_buffer *ai_input;
+ai_buffer *ai_output;
 /* USER CODE END 0 */
 
 /**
@@ -110,6 +117,73 @@ int main(void)
   MX_GPIO_Init();
   /* USER CODE BEGIN 2 */
   HAL_HSEM_ActivateNotification(__HAL_HSEM_SEMID_TO_MASK(HSEM_ID_0));
+  ai_handle network = AI_HANDLE_NULL;
+      ai_error err;
+      ai_network_report report;
+
+      /** @brief Initialize network */
+      const ai_handle acts[] = { activations };
+      err = ai_network_create_and_init(&network, acts, NULL);
+      if (err.type != AI_ERROR_NONE) {
+          printf("ai init_and_create error\n");
+          return -1;
+      }
+
+      /** @brief {optional} for debug/log purpose */
+      if (ai_network_get_report(network, &report) != true) {
+          printf("ai get report error\n");
+          return -1;
+      }
+
+      printf("Model name      : %s\n", report.model_name);
+      printf("Model signature : %s\n", report.model_signature);
+
+      ai_input = &report.inputs[0];
+      ai_output = &report.outputs[0];
+      printf("input[0] : (%d, %d, %d)\n", AI_BUFFER_SHAPE_ELEM(ai_input, AI_SHAPE_HEIGHT),
+                                          AI_BUFFER_SHAPE_ELEM(ai_input, AI_SHAPE_WIDTH),
+                                          AI_BUFFER_SHAPE_ELEM(ai_input, AI_SHAPE_CHANNEL));
+      printf("output[0] : (%d, %d, %d)\n", AI_BUFFER_SHAPE_ELEM(ai_output, AI_SHAPE_HEIGHT),
+                                           AI_BUFFER_SHAPE_ELEM(ai_output, AI_SHAPE_WIDTH),
+                                           AI_BUFFER_SHAPE_ELEM(ai_output, AI_SHAPE_CHANNEL));
+
+      /** @brief Fill input buffer with random values */
+      srand(1);
+      for (int i = 0; i < AI_NETWORK_IN_1_SIZE; i++) {
+          in_data[i] = rand() % 0xFFFF;
+      }
+
+      /** @brief Normalize, convert and/or quantize inputs if necessary... */
+
+      /** @brief Perform inference */
+      ai_i32 n_batch;
+
+      /** @brief Create the AI buffer IO handlers
+       *  @note  ai_inuput/ai_output are already initilaized after the
+       *         ai_network_get_report() call. This is just here to illustrate
+       *         the case where get_report() is not called.
+       */
+      ai_input = ai_network_inputs_get(network, NULL);
+      ai_output = ai_network_outputs_get(network, NULL);
+
+      /** @brief Set input/output buffer addresses */
+      ai_input[0].data = AI_HANDLE_PTR(in_data);
+      ai_output[0].data = AI_HANDLE_PTR(out_data);
+
+      /** @brief Perform the inference */
+      n_batch = ai_network_run(network, &ai_input[0], &ai_output[0]);
+      if (n_batch != 1) {
+          err = ai_network_get_error(network);
+          printf("ai run error %d, %d\n", err.type, err.code);
+        return -1;
+      }
+
+      /** @brief Post-process the output results/predictions */
+      printf("Inference output..\n");
+      for (int i = 0; i < AI_NETWORK_OUT_1_SIZE; i++) {
+          printf("%d,", out_data[i]);
+      }
+      printf("\n");
   /* USER CODE END 2 */
 
   /* Infinite loop */
