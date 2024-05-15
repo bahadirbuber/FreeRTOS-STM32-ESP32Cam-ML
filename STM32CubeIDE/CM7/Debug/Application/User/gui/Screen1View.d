@@ -107,8 +107,6 @@ Application/User/gui/Screen1View.o: \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
- ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
- ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h \
  ../../../CM7/Core/Inc/main.h ../../../Utilities/JPEG/jpeg_utils.h \
  ../../../CM7/Core/Inc/jpeg_utils_conf.h
 ../../CM7/../../CM7/TouchGFX/gui/include/gui/screen1_screen/Screen1View.hpp:
@@ -218,8 +216,6 @@ Application/User/gui/Screen1View.o: \
 ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h:
 ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h:
 ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h:
-../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h:
-../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h:
 ../../../CM7/Core/Inc/main.h:
 ../../../Utilities/JPEG/jpeg_utils.h:
 ../../../CM7/Core/Inc/jpeg_utils_conf.h:

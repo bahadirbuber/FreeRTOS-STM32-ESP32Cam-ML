@@ -44,8 +44,6 @@ Application/User/TouchGFX/target/stm32h745i_touchcontroller.o: \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
- ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
- ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h \
  ../../../Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_errno.h \
  ../../../Drivers/BSP/STM32H745I-DISCO/../Components/ft5336/ft5336.h \
  ../../../Drivers/BSP/STM32H745I-DISCO/../Components/ft5336/ft5336_reg.h \
@@ -94,8 +92,6 @@ Application/User/TouchGFX/target/stm32h745i_touchcontroller.o: \
 ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h:
 ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h:
 ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h:
-../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h:
-../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h:
 ../../../Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_errno.h:
 ../../../Drivers/BSP/STM32H745I-DISCO/../Components/ft5336/ft5336.h:
 ../../../Drivers/BSP/STM32H745I-DISCO/../Components/ft5336/ft5336_reg.h:

@@ -69,7 +69,11 @@ static void MX_DMA_Init(void);
 static void MX_GPIO_Init(void);
 static void MX_USART3_UART_Init(void);
 /* USER CODE BEGIN PFP */
-
+#define PUTCHAR_PROTOTYPE int __io_putchar(int ch)
+PUTCHAR_PROTOTYPE {
+  HAL_UART_Transmit(&huart3, (uint8_t *)&ch, 1, 0xFFFF);
+  return ch;
+}
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -141,6 +145,7 @@ int main(void)
   err = ai_face_recognition_create_and_init(&network, acts, NULL);
   if (err.type != AI_ERROR_NONE) {
 	  HAL_GPIO_TogglePin(GPIOJ, GPIO_PIN_2);
+	  printf("ERRORR\r\n");
 //	  return -1;
   }
   while (1)
@@ -150,7 +155,8 @@ int main(void)
     /* USER CODE BEGIN 3 */
 //	  if(notifyReceived == 1){
 //		  HAL_GPIO_TogglePin(GPIOJ, GPIO_PIN_2);
-//		  HAL_Delay(1000);
+	  	  printf("WHILE LOOP\r\n");
+		  HAL_Delay(1000);
 //	  }
   }
   /* USER CODE END 3 */

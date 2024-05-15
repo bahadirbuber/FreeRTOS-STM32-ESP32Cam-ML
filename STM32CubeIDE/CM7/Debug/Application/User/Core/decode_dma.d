@@ -41,8 +41,6 @@ Application/User/Core/decode_dma.o: ../Application/User/Core/decode_dma.c \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
- ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
- ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h \
  ../../../Utilities/JPEG/jpeg_utils.h \
  ../../../CM7/Core/Inc/jpeg_utils_conf.h
 ../../../CM7/Core/Inc/decode_dma.h:
@@ -88,7 +86,5 @@ Application/User/Core/decode_dma.o: ../Application/User/Core/decode_dma.c \
 ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h:
 ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h:
 ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h:
-../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h:
-../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h:
 ../../../Utilities/JPEG/jpeg_utils.h:
 ../../../CM7/Core/Inc/jpeg_utils_conf.h:

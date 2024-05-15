@@ -139,10 +139,10 @@ void StartDefaultTask(void *argument);
 void TouchGFX_Task(void *argument);
 
 /* USER CODE BEGIN PFP */
-PUTCHAR_PROTOTYPE {
-  HAL_UART_Transmit(&huart3, (uint8_t *)&ch, 1, 0xFFFF);
-  return ch;
-}
+//PUTCHAR_PROTOTYPE {
+//  HAL_UART_Transmit(&huart3, (uint8_t *)&ch, 1, 0xFFFF);
+//  return ch;
+//}
 void StartJPEGDecodeTask(void * argument);
 /* USER CODE END PFP */
 

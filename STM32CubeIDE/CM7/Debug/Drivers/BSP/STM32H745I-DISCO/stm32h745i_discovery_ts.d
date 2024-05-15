@@ -43,8 +43,6 @@ Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_ts.o: \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
- ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
- ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h \
  /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_errno.h \
  /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/../Components/ft5336/ft5336.h \
  /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/../Components/ft5336/ft5336_reg.h \
@@ -94,8 +92,6 @@ Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_ts.o: \
 ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h:
 ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h:
 ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h:
-../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h:
-../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h:
 /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_errno.h:
 /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/../Components/ft5336/ft5336.h:
 /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Drivers/BSP/STM32H745I-DISCO/../Components/ft5336/ft5336_reg.h:
