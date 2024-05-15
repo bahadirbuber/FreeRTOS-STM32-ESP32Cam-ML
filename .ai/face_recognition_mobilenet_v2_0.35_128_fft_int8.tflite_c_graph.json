@@ -702,7 +702,7 @@
         }
     },
     "activations_alignment": 4,
-    "arguments": "generate --target stm32h7 --name face_recognition -m /Users/bahadirbuber/Downloads/mobilenet_v2_0.35_128_fft_int8.tflite --compression none --verbosity 1 --allocate-inputs --allocate-outputs --memory-pool /var/folders/7v/jz4fp2xj54q78_6184n34z_h0000gn/T/mxAI_workspace4359335882154214567661608064257688/mempools.json --workspace /var/folders/7v/jz4fp2xj54q78_6184n34z_h0000gn/T/mxAI_workspace4359335882154214567661608064257688 --output /Users/bahadirbuber/.stm32cubemx/face_recognition_output",
+    "arguments": "generate --target stm32h7 --name face_recognition -m /Users/bahadirbuber/Downloads/mobilenet_v2_0.35_128_fft_int8.tflite --compression none --verbosity 1 --allocate-inputs --allocate-outputs --memory-pool /var/folders/7v/jz4fp2xj54q78_6184n34z_h0000gn/T/mxAI_workspace4098352771179215885579641139125420/mempools.json --workspace /var/folders/7v/jz4fp2xj54q78_6184n34z_h0000gn/T/mxAI_workspace4098352771179215885579641139125420 --output /Users/bahadirbuber/.stm32cubemx/face_recognition_output",
     "c_activations_count": 1,
     "c_arrays": [
         {
@@ -24486,7 +24486,7 @@
         ]
     },
     "data_alignment": 4,
-    "date_time": "Wed May 15 22:25:10 2024",
+    "date_time": "Wed May 15 21:41:41 2024",
     "inputs": [
         "serving_default_input_10_output"
     ],
