@@ -23052,35 +23052,35 @@
   "environment": {
     "device": null,
     "generated_model": {
-      "generated_time": "Wed May 15 21:41:41 2024",
+      "generated_time": "Wed May 15 22:25:10 2024",
       "model_files": [
         {
           "name": "face_recognition_data_params.h",
-          "signature": "0xef78840e45a4d55e0db79aafa68b4855"
+          "signature": "0x614c2e3fdf577ceae142d9e5bfbc39b2"
         },
         {
           "name": "face_recognition_data_params.c",
-          "signature": "0x2ba7879bb161cb1079f073796dace055"
+          "signature": "0x77cf36e4db3de4b293c5126729b0d624"
         },
         {
           "name": "face_recognition_data.h",
-          "signature": "0x58e31f2c6fda8b4c88f5887f5dad39f2"
+          "signature": "0x7d221a9bc0e57585d53163d146bc19be"
         },
         {
           "name": "face_recognition_data.c",
-          "signature": "0xaf3cfdf9c6d7cf86abd6deaf7c03b5dc"
+          "signature": "0xfea9e9beeb45f9607ffbe919e1e3cb8c"
         },
         {
           "name": "face_recognition_config.h",
-          "signature": "0x54044c814101110abad3d45a12686b5b"
+          "signature": "0x678ffd003580699d58772ff02378841e"
         },
         {
           "name": "face_recognition.h",
-          "signature": "0xa9b43f3345a3ff921e1c2549536a24a4"
+          "signature": "0xa4520566c36975e75736d99117bc52bd"
         },
         {
           "name": "face_recognition.c",
-          "signature": "0x9f097ed6b089943854ff50da3a5dca6d"
+          "signature": "0x9ea4a17caaff6dcf5b2bddd680908005"
         }
       ],
       "n_params": null,
@@ -23088,11 +23088,11 @@
       "size": null,
       "type": null
     },
-    "network_signature": "0xfdf6aff1da260da9",
+    "network_signature": "0xfb27d8cd122444fb",
     "test_name": "",
     "tools": [
       {
-        "arguments": "generate --target stm32h7 --name face_recognition -m /Users/bahadirbuber/Downloads/mobilenet_v2_0.35_128_fft_int8.tflite --compression none --verbosity 1 --allocate-inputs --allocate-outputs --memory-pool /var/folders/7v/jz4fp2xj54q78_6184n34z_h0000gn/T/mxAI_workspace4098352771179215885579641139125420/mempools.json --workspace /var/folders/7v/jz4fp2xj54q78_6184n34z_h0000gn/T/mxAI_workspace4098352771179215885579641139125420 --output /Users/bahadirbuber/.stm32cubemx/face_recognition_output",
+        "arguments": "generate --target stm32h7 --name face_recognition -m /Users/bahadirbuber/Downloads/mobilenet_v2_0.35_128_fft_int8.tflite --compression none --verbosity 1 --allocate-inputs --allocate-outputs --memory-pool /var/folders/7v/jz4fp2xj54q78_6184n34z_h0000gn/T/mxAI_workspace4359335882154214567661608064257688/mempools.json --workspace /var/folders/7v/jz4fp2xj54q78_6184n34z_h0000gn/T/mxAI_workspace4359335882154214567661608064257688 --output /Users/bahadirbuber/.stm32cubemx/face_recognition_output",
         "environment": [
           "STATS_TYPE=X-CUBE-AI"
         ],
