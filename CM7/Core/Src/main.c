@@ -35,7 +35,7 @@
 
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
-#define EnableM4CPU
+#define EnableM4CPU 1
 #define PUTCHAR_PROTOTYPE int __io_putchar(int ch)
 //#define BUFFER_SIZE 256
 /* USER CODE END PTD */
@@ -259,7 +259,7 @@ int main(void)
 
 /* USER CODE BEGIN Boot_Mode_Sequence_1 */
   /* Wait until CPU2 boots and enters in stop mode or timeout*/
-#ifdef EnableM4CPU
+#if EnableM4CPU
   int32_t timeout;
  timeout = 0xFFFF;
  while((__HAL_RCC_GET_FLAG(RCC_FLAG_D2CKRDY) != RESET) && (timeout-- > 0));
@@ -283,7 +283,7 @@ int main(void)
 /* USER CODE BEGIN Boot_Mode_Sequence_2 */
 /* When system initialization is finished, Cortex-M7 will release Cortex-M4 by means of
 HSEM notification */
-#ifdef EnableM4CPU
+#if EnableM4CPU
 /*HW semaphore Clock enable*/
 __HAL_RCC_HSEM_CLK_ENABLE();
 /*Take HSEM */
@@ -666,7 +666,7 @@ static void MX_SPI2_Init(void)
   hspi2.Init.DataSize = SPI_DATASIZE_8BIT;
   hspi2.Init.CLKPolarity = SPI_POLARITY_HIGH;
   hspi2.Init.CLKPhase = SPI_PHASE_1EDGE;
-  hspi2.Init.NSS = SPI_NSS_SOFT;
+  hspi2.Init.NSS = SPI_NSS_HARD_INPUT;
   hspi2.Init.FirstBit = SPI_FIRSTBIT_MSB;
   hspi2.Init.TIMode = SPI_TIMODE_DISABLE;
   hspi2.Init.CRCCalculation = SPI_CRCCALCULATION_DISABLE;

@@ -119,10 +119,10 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-	  if(notifyReceived == 1){
+//	  if(notifyReceived == 1){
 		  HAL_GPIO_TogglePin(GPIOJ, GPIO_PIN_2);
-		  HAL_Delay(100);
-	  }
+		  HAL_Delay(1000);
+//	  }
   }
   /* USER CODE END 3 */
 }
