@@ -2,7 +2,7 @@
   ******************************************************************************
   * @file    face_recognition_data.c
   * @author  AST Embedded Analytics Research Platform
-  * @date    Wed May 15 21:03:31 2024
+  * @date    Wed May 15 21:41:41 2024
   * @brief   AI Tool Automatic Code Generator for Embedded NN computing
   ******************************************************************************
   * @attention
@@ -21,8 +21,8 @@
 AI_API_DECLARE_BEGIN
 ai_buffer g_face_recognition_data_map_activations[AI_FACE_RECOGNITION_DATA_ACTIVATIONS_COUNT] = {
   AI_BUFFER_INIT(AI_FLAG_NONE,  AI_BUFFER_FORMAT_U8,
-    AI_BUFFER_SHAPE_INIT(AI_SHAPE_BCWH, 4, 1, 229888, 1, 1),
-    229888, NULL, NULL),    /* heap_overlay_pool */
+    AI_BUFFER_SHAPE_INIT(AI_SHAPE_BCWH, 4, 1, 230572, 1, 1),
+    230572, NULL, 0x0),    /* pool1 */
   };
 ai_buffer g_face_recognition_data_map_weights[AI_FACE_RECOGNITION_DATA_WEIGHTS_COUNT] = {
   AI_BUFFER_INIT(AI_FLAG_NONE,  AI_BUFFER_FORMAT_U8,

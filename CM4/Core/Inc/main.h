@@ -32,7 +32,13 @@ extern "C" {
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "face_recognition.h"
+#include "face_recognition_data.h"
 
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include <string.h>
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/
@@ -52,6 +58,7 @@ extern "C" {
 
 /* Exported functions prototypes ---------------------------------------------*/
 void Error_Handler(void);
+void MX_FMC_Init(void);
 
 /* USER CODE BEGIN EFP */
 
