@@ -37,6 +37,11 @@
 			<locationURI>PARENT-2-PROJECT_LOC/CM4/X-CUBE-AI/App/face_recognition_generate_report.txt</locationURI>
 		</link>
 		<link>
+			<name>Middlewares/AI</name>
+			<type>2</type>
+			<location>/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/Middlewares/ST/AI</location>
+		</link>
+		<link>
 			<name>Drivers/CMSIS/system_stm32h7xx_dualcore_boot_cm4_cm7.c</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/Common/Src/system_stm32h7xx_dualcore_boot_cm4_cm7.c</locationURI>

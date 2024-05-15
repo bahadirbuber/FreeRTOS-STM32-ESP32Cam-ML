@@ -50,6 +50,13 @@ SDRAM_HandleTypeDef hsdram2;
 
 /* USER CODE BEGIN PV */
 int notifyReceived;
+ai_u8 activations[AI_FACE_RECOGNITION_DATA_ACTIVATIONS_SIZE];
+ai_u8 in_data[AI_FACE_RECOGNITION_IN_1_SIZE_BYTES];
+ai_u8 out_data[AI_FACE_RECOGNITION_OUT_1_SIZE_BYTES];
+
+/* AI buffer IO handlers */
+ai_buffer *ai_input;
+ai_buffer *ai_output;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -120,14 +127,25 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+  ai_handle network = AI_HANDLE_NULL;
+  ai_error err;
+  ai_network_report report;
+
+  /** @brief Initialize network */
+  const ai_handle acts[] = { activations };
+  err = ai_face_recognition_create_and_init(&network, acts, NULL);
+  if (err.type != AI_ERROR_NONE) {
+	  HAL_GPIO_TogglePin(GPIOJ, GPIO_PIN_2);
+//	  return -1;
+  }
   while (1)
   {
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
 //	  if(notifyReceived == 1){
-		  HAL_GPIO_TogglePin(GPIOJ, GPIO_PIN_2);
-		  HAL_Delay(1000);
+//		  HAL_GPIO_TogglePin(GPIOJ, GPIO_PIN_2);
+//		  HAL_Delay(1000);
 //	  }
   }
   /* USER CODE END 3 */

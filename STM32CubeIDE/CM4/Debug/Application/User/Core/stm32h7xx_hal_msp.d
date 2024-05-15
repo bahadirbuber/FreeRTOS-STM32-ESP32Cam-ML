@@ -28,7 +28,14 @@ Application/User/Core/stm32h7xx_hal_msp.o: \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h \
- ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h
+ ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h \
+ ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_sdram.h \
+ ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_fmc.h \
+ ../../../CM4/X-CUBE-AI/App/face_recognition.h \
+ ../../../CM4/X-CUBE-AI/App/face_recognition_config.h \
+ ../../../Middlewares/ST/AI/Inc/ai_platform.h \
+ ../../../CM4/X-CUBE-AI/App/face_recognition_data.h \
+ ../../../CM4/X-CUBE-AI/App/face_recognition_data_params.h
 ../../../CM4/Core/Inc/main.h:
 ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:
 ../../../CM4/Core/Inc/stm32h7xx_hal_conf.h:
@@ -58,3 +65,10 @@ Application/User/Core/stm32h7xx_hal_msp.o: \
 ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h:
 ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h:
 ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h:
+../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_sdram.h:
+../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_fmc.h:
+../../../CM4/X-CUBE-AI/App/face_recognition.h:
+../../../CM4/X-CUBE-AI/App/face_recognition_config.h:
+../../../Middlewares/ST/AI/Inc/ai_platform.h:
+../../../CM4/X-CUBE-AI/App/face_recognition_data.h:
+../../../CM4/X-CUBE-AI/App/face_recognition_data_params.h:

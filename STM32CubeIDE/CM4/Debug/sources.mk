@@ -40,6 +40,7 @@ CPP_DEPS :=
 SUBDIRS := \
 Application/User/Core \
 Application/User/Startup \
+Application/User/X-CUBE-AI/App \
 Drivers/CMSIS \
 Drivers/STM32H7xx_HAL_Driver \
 

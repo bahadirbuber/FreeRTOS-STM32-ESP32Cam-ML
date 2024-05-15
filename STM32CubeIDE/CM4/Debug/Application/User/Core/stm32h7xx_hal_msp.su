@@ -1,1 +1,5 @@
 /Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM4/Core/Src/stm32h7xx_hal_msp.c:65:6:HAL_MspInit	16	static
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM4/Core/Src/stm32h7xx_hal_msp.c:82:13:HAL_FMC_MspInit	208	static
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM4/Core/Src/stm32h7xx_hal_msp.c:108:6:HAL_SDRAM_MspInit	16	static
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM4/Core/Src/stm32h7xx_hal_msp.c:120:13:HAL_FMC_MspDeInit	4	static
+/Users/bahadirbuber/Documents/GitHub/RTOS_ML_SPI/CM4/Core/Src/stm32h7xx_hal_msp.c:135:6:HAL_SDRAM_MspDeInit	16	static
