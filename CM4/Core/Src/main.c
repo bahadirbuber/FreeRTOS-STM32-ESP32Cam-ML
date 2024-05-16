@@ -40,7 +40,11 @@
 
 /* Private macro -------------------------------------------------------------*/
 /* USER CODE BEGIN PM */
-
+/** A macro to generate the passed argument in double quotes */
+#define STR(X) STR_I(X)
+/** A macro to generate the passed argument in double quotes */
+#define STR_I(X) #X
+#define LOCATION_ATTRIBUTE_NOLOAD(name) __attribute__((section(STR(name)))) __attribute__((aligned(4)))
 /* USER CODE END PM */
 
 /* Private variables ---------------------------------------------------------*/
@@ -52,10 +56,8 @@ DMA_HandleTypeDef hdma_memtomem_dma1_stream2;
 SDRAM_HandleTypeDef hsdram2;
 
 /* USER CODE BEGIN PV */
+
 int notifyReceived;
-ai_u8 activations[AI_FACE_RECOGNITION_DATA_ACTIVATIONS_SIZE];
-ai_u8 in_data[AI_FACE_RECOGNITION_IN_1_SIZE_BYTES];
-ai_u8 out_data[AI_FACE_RECOGNITION_OUT_1_SIZE_BYTES];
 
 /* AI buffer IO handlers */
 ai_buffer *ai_input;
@@ -69,6 +71,7 @@ static void MX_DMA_Init(void);
 static void MX_GPIO_Init(void);
 static void MX_USART3_UART_Init(void);
 /* USER CODE BEGIN PFP */
+
 #define PUTCHAR_PROTOTYPE int __io_putchar(int ch)
 PUTCHAR_PROTOTYPE {
   HAL_UART_Transmit(&huart3, (uint8_t *)&ch, 1, 0xFFFF);
@@ -131,7 +134,14 @@ int main(void)
   MX_GPIO_Init();
   MX_USART3_UART_Init();
   /* USER CODE BEGIN 2 */
+  MX_FMC_Init();
   HAL_HSEM_ActivateNotification(__HAL_HSEM_SEMID_TO_MASK(HSEM_ID_0));
+  __IO ai_u8 *activations=(__IO ai_u8*)(ACTIVATION_BUFFER);
+  __IO ai_u8 *in_data = (__IO ai_u8*)(INPUT_BUFFER);
+  __IO ai_u8 *out_data = (__IO ai_u8*)(OUT_BUFFER);
+  memset((uint32_t *)activations,0xAA,AI_FACE_RECOGNITION_DATA_ACTIVATIONS_SIZE);
+  memset((uint32_t *)in_data,0xAA,AI_FACE_RECOGNITION_IN_1_SIZE);
+  memset((uint32_t *)out_data,0xAA,AI_FACE_RECOGNITION_OUT_1_SIZE);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -148,6 +158,58 @@ int main(void)
 	  printf("ERRORR\r\n");
 //	  return -1;
   }
+  if (ai_face_recognition_get_report(network, &report) != true) {
+          printf("ai get report error\n");
+          return -1;
+      }
+
+      printf("Model name      : %s\n", report.model_name);
+      printf("Model signature : %s\n", report.model_signature);
+
+      ai_input = &report.inputs[0];
+      ai_output = &report.outputs[0];
+      printf("input[0] : (%d, %d, %d)\n", AI_BUFFER_SHAPE_ELEM(ai_input, AI_SHAPE_HEIGHT),
+                                          AI_BUFFER_SHAPE_ELEM(ai_input, AI_SHAPE_WIDTH),
+                                          AI_BUFFER_SHAPE_ELEM(ai_input, AI_SHAPE_CHANNEL));
+      printf("output[0] : (%d, %d, %d)\n", AI_BUFFER_SHAPE_ELEM(ai_output, AI_SHAPE_HEIGHT),
+                                           AI_BUFFER_SHAPE_ELEM(ai_output, AI_SHAPE_WIDTH),
+                                           AI_BUFFER_SHAPE_ELEM(ai_output, AI_SHAPE_CHANNEL));
+      srand(1);
+	  for (int i = 0; i < AI_FACE_RECOGNITION_IN_1_SIZE; i++) {
+		  in_data[i] = rand() % 0xFFFF;
+	  }
+
+	  /** @brief Normalize, convert and/or quantize inputs if necessary... */
+
+	  /** @brief Perform inference */
+	  ai_i32 n_batch;
+
+	  /** @brief Create the AI buffer IO handlers
+	   *  @note  ai_inuput/ai_output are already initilaized after the
+	   *         ai_network_get_report() call. This is just here to illustrate
+	   *         the case where get_report() is not called.
+	   */
+	  ai_input = ai_face_recognition_inputs_get(network, NULL);
+	  ai_output = ai_face_recognition_outputs_get(network, NULL);
+
+	  /** @brief Set input/output buffer addresses */
+	  ai_input[0].data = AI_HANDLE_PTR(in_data);
+	  ai_output[0].data = AI_HANDLE_PTR(out_data);
+
+	  /** @brief Perform the inference */
+	  n_batch = ai_face_recognition_run(network, &ai_input[0], &ai_output[0]);
+	  if (n_batch != 1) {
+		  err = ai_face_recognition_get_error(network);
+		  printf("ai run error %d, %d\n", err.type, err.code);
+		return -1;
+	  }
+
+	  /** @brief Post-process the output results/predictions */
+	  printf("Inference output..\n");
+	  for (int i = 0; i < AI_FACE_RECOGNITION_OUT_1_SIZE; i++) {
+		  printf("%d,", out_data[i]);
+	  }
+	  printf("\n");
   while (1)
   {
     /* USER CODE END WHILE */
@@ -360,6 +422,7 @@ void MPU_Config(void)
   MPU_InitStruct.DisableExec = MPU_INSTRUCTION_ACCESS_ENABLE;
   MPU_InitStruct.IsShareable = MPU_ACCESS_SHAREABLE;
   MPU_InitStruct.IsCacheable = MPU_ACCESS_CACHEABLE;
+//  MPU_InitStruct.IsCacheable = MPU_ACCESS_NOT_CACHEABLE;
   MPU_InitStruct.IsBufferable = MPU_ACCESS_BUFFERABLE;
 
   HAL_MPU_ConfigRegion(&MPU_InitStruct);
