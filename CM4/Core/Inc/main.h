@@ -36,6 +36,7 @@ extern "C" {
 #include "face_recognition_data.h"
 
 #include <stdio.h>
+#include <stdint.h>
 #include <stdlib.h>
 #include <time.h>
 #include <string.h>
@@ -48,7 +49,9 @@ extern "C" {
 
 /* Exported constants --------------------------------------------------------*/
 /* USER CODE BEGIN EC */
-
+#define ACTIVATION_BUFFER  0xD1000000
+#define INPUT_BUFFER (uint32_t)(ACTIVATION_BUFFER + (AI_FACE_RECOGNITION_DATA_ACTIVATIONS_SIZE)+10)
+#define OUT_BUFFER (uint32_t)(INPUT_BUFFER + AI_FACE_RECOGNITION_IN_1_SIZE_BYTES + 10)
 /* USER CODE END EC */
 
 /* Exported macro ------------------------------------------------------------*/
